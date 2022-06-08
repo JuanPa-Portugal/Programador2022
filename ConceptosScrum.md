@@ -1,10 +1,6 @@
 # Programador2022
 repo proyecto primer cuatrimestre ISPC
 
-## Resumen De metodologias Scrum
-
-
-
 ## Resumen Base de Datos
 
   ### Historia de Base de Datos
@@ -12,6 +8,17 @@ repo proyecto primer cuatrimestre ISPC
   ### Diseño de bases de datos relacionales
   
   ### Introduccion a la Base de Datos
+  
+  
+ 
+## Resumen Metodologías Agiles y Gestión de Proyectos
+
+  ### Metodología Scrum
+  ### GITHUB - VSC
+  ### GIT
+  
+  
+  
   
 ## Resumen de ÉTICA Y DEONTOLOGÍA PROFESIONAL
 
