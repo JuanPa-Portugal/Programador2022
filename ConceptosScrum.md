@@ -13,6 +13,16 @@ repo proyecto primer cuatrimestre ISPC
   
   ### Introduccion a la Base de Datos
   
+## Resumen de ÉTICA Y DEONTOLOGÍA PROFESIONAL
+
+  ### Introducción
+  
+  ### Ética en la Informática
+  
+  ### Moral vs. Ética
+  
+  ### Dilema en las Redes Sociales
+  
   
   
   
