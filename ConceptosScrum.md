@@ -18,6 +18,7 @@ repo proyecto primer cuatrimestre ISPC
   ### Introducción
   
   ### Ética en la Informática
+  estoy probando usar git
   
   ### Moral vs. Ética
   
