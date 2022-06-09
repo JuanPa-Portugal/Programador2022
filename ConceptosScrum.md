@@ -14,6 +14,27 @@ repo proyecto primer cuatrimestre ISPC
 ## Resumen Metodologías Agiles y Gestión de Proyectos
 
   ### Metodología Scrum
+  Scrum es un marco de trabajo a traves del cual las personas pueden abordar problemas, a la vez que se entregan productos
+  de forma eficiente.Sus pilares son:
+  - Ciclo de vida interativo e incremental:*Sprint*
+  - Transparencia
+  - Inspeccion
+  - Adaptacion
+  Roles de Scrum:
+  -Product Owner:representa al cliente
+  -Scrum Team:equipo de desarrollo
+  -Scrum Master: mediador
+  Artefactos:
+  -Product Backlog:lista de trabajo
+  -Sprint Backlog:objetivos del sprint
+  -Incremento:resultado del sprint
+  El Sprint es un periodo de corta duracion que debe finalizar con un prototipo operativo parcialmente entregable.
+  Ceremonias:
+  -Sprint Planning Meeting: reunion de planificaion del sprint
+  -Daily Scrum Meeting: reunion periodica
+  -Sprint Review Meeting: reunion de revision del sprint
+  -Sprint Retrospective Meeting: reunion retrospectiva del sprint.
+  
   ### GITHUB - VSC
     
     #### ¿Qué es GitHub?
