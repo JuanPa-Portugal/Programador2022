@@ -63,6 +63,15 @@ repo proyecto primer cuatrimestre ISPC
   ### Moral vs. Ética
   
   ### Dilema en las Redes Sociales
+“Hay dos industrias que llaman a sus clientes usuarios: la de las drogas ilegales y la del software". 
+La frase aparece en uno de los momentos más comentados del documental The Social Dilemma ("El dilema de las redes sociales"), que se estrenó en febrero de 2020 en el Festival de Cine de Sundance, en Estados Unidos.
+Concluido con testimonios de algunos exejecutivos de las empresas más grandes de Silicon
+Valley y de académicos, el filme describe la adicción y los impactos negativos de las redes sociales en personas y comunidades, como resultado de las estrategias diseñadas para manipular emociones y comportamientos, y mantener conectados a los usuarios. 
+Así, según «El dilema de las redes sociales», experiencias digitales aparentemente triviales, como recomendaciones automáticas, notificaciones y publicaciones presentadas, funcionarían como un cebo que es lanzado por las aplicaciones más populares del planeta. Clasificado como docudrama -una fórmula que mezcla testimonios del documental tradicional con escenas dramatizadas-, la película ha sido descrita como una ventana a las mesas de decisión de gigantes de Silicon Valley como Facebook, Twitter y Google.
+Luego, se ofrece información sobre los usuarios a los clientes, desde marcas de cosméticos y universidades hasta políticos y gobiernos, que pagan millones de dólares por mostrar productos o ideas a audiencias que estén dispuestas a participar. Sin embargo, el engranaje solo funciona si los usuarios permanecen conectados a sus perfiles y, por lo tanto, pueden estar expuestos al máximo número de anuncios. 
+Estas son herramientas diseñadas para engancharnos y manipularnos. Una de las voces principales de la película es Tristán Harris, un exingeniero de Google que trató de advertir a sus colegas sobre el riesgo de adicción a los usuarios, y dice que fue ignorado. 
+«El dilema de la redes sociales», describe las herramientas que se crean para mantener a los usuarios «distraídos» mientras los anunciantes ganan dinero.
+La dinámica de «me gusta» y comentarios con elogios o críticas se estimularía para manipular y hacer dependientes a los usuarios, según los entrevistados, las mismas son las validaciones recibidas por elogios, y aportan un sentimiento de felicidad o logro a los usuarios.  Así, a medida que cada validación recibida en línea genera nuevos impulsos artificiales de dopamina, las redes mantienen conectada a una legión de usuarios cada vez más solitarios y necesitados, sin autonomía para discernir entre la realidad y la virtualidad.
   
   
   
