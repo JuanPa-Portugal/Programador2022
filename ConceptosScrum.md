@@ -16,6 +16,7 @@ repo proyecto primer cuatrimestre ISPC
   ### Metodología Scrum
   ### GITHUB - VSC
     ¿Qué es GitHub?
+    <ul>
     - GitHub es un sitio web y un servicio en la nube que ayuda a los desarrolladores 
       a almacenar y administrar su codigo.
     - Permite llevar un registro y control de cualquier cambio en le codigo.
@@ -23,7 +24,7 @@ repo proyecto primer cuatrimestre ISPC
       los proyectos propios**.
     - La plataforma es de **codigo abierto** por defecto, por lo tanto cualquier persona puede
       utilizar tu codigo y a su ves tu puedes ver el codigo de otros proyectos.
-    
+    </ul>
   
   ### GIT
   
