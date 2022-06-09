@@ -55,13 +55,39 @@ repo proyecto primer cuatrimestre ISPC
   
 ## Resumen de ÉTICA Y DEONTOLOGÍA PROFESIONAL
 
-  ### Introducción
+  ### Ética y Deontología
   
-  ### Ética en la Informática
-  estoy probando usar git
-  
-  ### Moral vs. Ética
-  
+  ### Seguridad en la red
+Seguridad en la red
+A traves de internet, podemos conectarnos con todo el munod y realizar infinidad de tareas, sin embargo, también es muchas veces el medio por las que accedemos a virus y es también utilizado como medio por los hackers para robarnos
+información con el fin de obtener algún beneficio.
+
+Para protegernos podemos utilizar un buen antivirus, un VPN para redes publicas, un navegador anónimo, entre otros; aunque tomemos todas las medidas de seguridad nunca estaremos completamente protegidos. A continuación veremos algunos ejemplos de inseguridad que suceden a diario:
+* En las redes sociales: un atacante puede acceder a datos personales e invadir nuestra privacidad con lo que hemos publicado, ademas puede conocer la ubicación de alguien solo accediendo a sus actualizaciones.
+* Descargas: Al descargar archivos a nuestra pc o dispositivo corremos grandes riesgos, pues podemos descargar software malicioso que se diseño para dañar software o instalar software no deseado, el cual provoca comportamientos engañosos inesperados o perjudiciales para el usuario cuando utiliza el equipo o navega por la red.
+* Contraseñas: para descifrar contraseñas se utilizan sistemas programados, por lo que se deben utilizar contraseñas con un tamaño preferiblemente largo (minimo 8 caracteres), debe contener caracteres especiales, mayúsculas, minúsculas y de 1 a 4 números  y evitar frases que nos identifiquen como la fecha de nacimiento, el nombre de la mascota, etc.
+
+Hacking
+Contrario al concepto conocido de un hacker, no es una persona con malas intenciones, por el contrario, se encarga de hallar vulnerabilidades en un sistema para mejorarlo y hacerlo mas seguro. La finalidad de la utilización de esas vulnerabilidades es lo que hace a un hacker malicioso o no.
+Las tecnicas mas conocidas de hacking utilizadas actualmente son:
+ CLICKJACKING: el atacante utiliza varias capas para engañar al usuario que hace click en un botón y es redirigido a una página externe (fuara de la original).
+ PHISHING: se utiliza para obtener información personal, como su nombre de usuario, contraseña y detalles de tarjetas de crédito, fingiendo la identidad de otra persona, o
+entidad de confianza, mediante un mensaje de correo electrónico o a través de una página web.
+ EAVESDROPPING: este método consiste en un ataque pasivo en el cual los sistemas informáticos y las redes se supervisan para que el atacante obtenga cierta información relevante.
+ FAKE WAR: en lugares donde encontramos redes de wifi abiertas, algunos atacantes utilizan software y tarjetas inalámbricas para configurar una IP falsa y simular una red real. Al conectarse a la red, el usuario le da acceso a toda la información que envía por medio dedicha red.
+ KEYLOGGER: es un software o un hardware que puede interceptar y guardar las pulsaciones realizadas en el teclado de un equipo que haya previamente infectado. Este malware se sitúa entre el teclado y el sistema para interceptar y registrar la información sin que el usuario lo note. Además un Keylogger almacena datos en forma local en el ordenador infectado y permite que el atacante tenga acceso remoto al equipo de la víctima y registrar información del otro equipo.
+
+¿Cómo protegernos?
+La protección depende más del usuario que del sistema, ya que hay que conocer un poco de seguridad para poder evitar algunos ataques; sin embargo, se puede seguir ciertos consejos:
+ El usuario debe ser precavido, intentando comprobar remitentes y sitios auténticos. Es de suma importancia no realizar transacciones financieras a traves de redes públicas, ni acceder a cuentas con información personal. 
+ No intalar software gratuito pirateado o sospechoso.
+ Cambiar las claves periodicamente
+ Utilizar un navegador actualizado
+ Utilizar VPN y evitar el trafico HTTP
+
+ 
+  ### Seguridad informática
+ 
   ### Dilema en las Redes Sociales
 “Hay dos industrias que llaman a sus clientes usuarios: la de las drogas ilegales y la del software". 
 La frase aparece en uno de los momentos más comentados del documental The Social Dilemma ("El dilema de las redes sociales"), que se estrenó en febrero de 2020 en el Festival de Cine de Sundance, en Estados Unidos.
