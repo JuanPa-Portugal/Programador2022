@@ -55,8 +55,6 @@ repo proyecto primer cuatrimestre ISPC
 - En el navegador de preferencia vamos a colocar : [github.com](https://github.com/ "Click Aqui") 
 
 - Dentro de la página  de incio de GitHub, hacemos clic en **Sign up** y seleccionamos el **plan personal gratuito con repositorio público**.
-
-
 ![imagen login GitHub](login.png)
 
 **Paso 2**
@@ -67,8 +65,7 @@ repo proyecto primer cuatrimestre ISPC
     * Crea una contraseña.
 - Una vez completado el formulario enviamos el formulario dando clic en el botón **"Sign up for gitHub"** y confirmamos el correo que recibimos en nuestra casilla de mail.
 - Una vez confirmada nuestra cuenta, podemos ir a nuestro espacio de GitHub y empezar a crear nuestros repositorios y visitar los que ya tenemos creados. Además de personalizarlo editando nuestro perfil.
-
-![imagen formulario](formulario.png)
+![imagen formulario](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG4aP98UDQqLo7-YNy%2FScreen%20Shot%202019-08-26%20at%209.39.34%20PM.png?alt=media&token=2580146b-1493-4966-b404-dd0ceb2d4821)
     
   
   ### GIT
