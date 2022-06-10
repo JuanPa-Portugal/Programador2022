@@ -55,7 +55,7 @@ repo proyecto primer cuatrimestre ISPC
 - En el navegador de preferencia vamos a colocar : [github.com](https://github.com/ "Click Aqui") 
 
 - Dentro de la página  de incio de GitHub, hacemos clic en **Sign up** y seleccionamos el **plan personal gratuito con repositorio público**.
-![imagen login GitHub](login.png)
+![imagen login GitHub](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG4V70dEKGuCvHT25d%2FScreen%20Shot%202019-08-26%20at%209.38.00%20PM.png?alt=media&token=195124c9-06ed-4c3b-872a-518e8a44f843)
 
 **Paso 2**
 
