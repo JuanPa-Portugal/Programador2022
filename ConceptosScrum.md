@@ -57,7 +57,7 @@ repo proyecto primer cuatrimestre ISPC
 - Dentro de la página  de incio de GitHub, hacemos clic en **Sign up** y seleccionamos el **plan personal gratuito con repositorio público**.
 
 
-![login GitHub](login.png)
+![imagen login GitHub](login.png)
 
 **Paso 2**
 
