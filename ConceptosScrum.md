@@ -37,15 +37,37 @@ repo proyecto primer cuatrimestre ISPC
   
   ### GITHUB - VSC
     
-   ### ¿Qué es GitHub?
-    
-   - GitHub es un sitio web y un servicio en la nube que ayuda a los desarrolladores 
-     a almacenar y administrar su codigo.
-   - Permite llevar un registro y control de cualquier cambio en le codigo.
-   - Es un sistema que ofrece la posibilidad de **colaborar en otros proyectos y publicar 
-     los proyectos propios**.
-   - La plataforma es de **codigo abierto por defecto**, por lo tanto cualquier persona puede
-     utilizar tu codigo y a su ves tu puedes ver el codigo de otros proyectos.
+>¿Qué es GitHub?
+
+- GitHub es un sitio web y un servicio en la nube que ayuda a los desarrolladores 
+  a almacenar y administrar su codigo.
+- Permite llevar un registro y control de cualquier cambio en le codigo.
+- Es un sistema que ofrece la posibilidad de **colaborar en otros proyectos y publicar los proyectos propios**.
+- La plataforma es de **codigo abierto** por defecto, por lo tanto cualquier persona puede
+  utilizar tu codigo y a su ves tu puedes ver el codigo de otros proyectos.
+- hay dos principios importantes que se deben conocer: 
+    1. **Control De Version:** Nos permite llevar un registro y control del código, permitiendo trabajar de forma segura en los proyectos.
+    2. **Git:** Es un **sistema de control específico de versión distribuida**. El código y su historial se encuentran disponibles localmente en la computadora de todo desarrollador.
+
+> ### Como crear una cuenta en GitHub 📝
+## Paso 1
+- En el navegador de preferencia vamos a colocar : [github.com](https://github.com/ "Click Aqui") 
+
+- Dentro de la página  de incio de GitHub, hacemos clic en **Sign up** y seleccionamos el **plan personal gratuito con repositorio público**.
+
+
+![login GitHub](login.png)
+
+## Paso 2
+
+- Completamos el formulario:
+    * Usuario (preferentemente tu nombre para que los que vean tus proyectos sepan quien eres).
+    * Mail (tu mail personal o uno exclusivo de trabajo o estudio, etc).
+    * Crea una contraseña.
+- Una vez completado el formulario enviamos el formulario dando clic en el botón **"Sign up for gitHub"** y confirmamos el correo que recibimos en nuestra casilla de mail.
+- Una vez confirmada nuestra cuenta, podemos ir a nuestro espacio de GitHub y empezar a crear nuestros repositorios y visitar los que ya tenemos creados. Además de personalizarlo editando nuestro perfil.
+
+![imagen formulario](formulario.png)
     
   
   ### GIT
