@@ -49,7 +49,8 @@ repo proyecto primer cuatrimestre ISPC
     1. **Control De Version:** Nos permite llevar un registro y control del código, permitiendo trabajar de forma segura en los proyectos.
     2. **Git:** Es un **sistema de control específico de versión distribuida**. El código y su historial se encuentran disponibles localmente en la computadora de todo desarrollador.
 
-> **Como crear una cuenta en GitHub** 📝
+> **Como crear una cuenta en GitHub 📝**
+> 
 **Paso 1**
 - En el navegador de preferencia vamos a colocar : [github.com](https://github.com/ "Click Aqui") 
 
