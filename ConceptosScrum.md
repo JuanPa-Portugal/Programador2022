@@ -10,7 +10,7 @@ repo proyecto primer cuatrimestre ISPC
   ### Introduccion a la Base de Datos
   
   
- 
+---
 ## Resumen Metodologías Agiles y Gestión de Proyectos
 
   ### Metodología Scrum
@@ -75,7 +75,7 @@ repo proyecto primer cuatrimestre ISPC
   
   
   
-  
+---  
 ## Resumen de ÉTICA Y DEONTOLOGÍA PROFESIONAL
 
   ### Ética y Deontología
