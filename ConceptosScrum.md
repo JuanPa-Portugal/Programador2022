@@ -37,7 +37,7 @@ repo proyecto primer cuatrimestre ISPC
   
   ### GITHUB - VSC
     
->¿Qué es GitHub?
+>**¿Qué es GitHub?**
 
 - GitHub es un sitio web y un servicio en la nube que ayuda a los desarrolladores 
   a almacenar y administrar su codigo.
@@ -49,8 +49,8 @@ repo proyecto primer cuatrimestre ISPC
     1. **Control De Version:** Nos permite llevar un registro y control del código, permitiendo trabajar de forma segura en los proyectos.
     2. **Git:** Es un **sistema de control específico de versión distribuida**. El código y su historial se encuentran disponibles localmente en la computadora de todo desarrollador.
 
-> ### Como crear una cuenta en GitHub 📝
-## Paso 1
+> **Como crear una cuenta en GitHub** 📝
+**Paso 1**
 - En el navegador de preferencia vamos a colocar : [github.com](https://github.com/ "Click Aqui") 
 
 - Dentro de la página  de incio de GitHub, hacemos clic en **Sign up** y seleccionamos el **plan personal gratuito con repositorio público**.
@@ -58,7 +58,7 @@ repo proyecto primer cuatrimestre ISPC
 
 ![login GitHub](login.png)
 
-## Paso 2
+**Paso 2**
 
 - Completamos el formulario:
     * Usuario (preferentemente tu nombre para que los que vean tus proyectos sepan quien eres).
