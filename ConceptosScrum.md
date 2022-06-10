@@ -105,6 +105,78 @@ La protección depende más del usuario que del sistema, ya que hay que conocer 
 
  
   ### Seguridad informática
+  
+La Seguridad Informática se refiere a las características y condiciones de los sistemas de
+procesamiento de datos y su almacenamiento, para garantizar su confidencialidad, integridad y 
+disponibilidad.
+Es decir, su funcion es la proteccion de la informacion, en contra de amenazas o peligros, para evitar daños y para minimizar riesgos, relacionados con ella. 
+
+ - Seguridad de la Informacion: Es el conjunto de medidas preventivas y reactivas que permiten resguardar y proteger la información.
+El objetivo de la protección son los datos mismos y trata de evitar su pérdida y modificación
+no-autorizada.
+
+ - Proteccion de Datos: Se encarga de proteger los datos personales de las personas es decir, se refiere a medidas de protección de la privacidad digital que se aplican para evitar el acceso no autorizado a los datos, los cuales pueden encontrarse en ordenadores, bases de datos, sitios web, etc. Para asi prevenir una posible corrupcion o un abuso de esta.
+
+#### Algunos conceptos que debes conocer
+
+ - Ransomware: Es un tipo de malware que cifra los archivos y hasta sistemas informáticos enteros para luego pedir el pago de un rescate a cambio de devolver el acceso.
+Por ende los ingenieros de seguridad se ocupan de proteger la red de las amenazas, ellos diseñan sistemas que protegen las cosas y los implementa, realizan pruebas hasta hacerlos cada vez más seguros, realizan revisiones regulares de código como así también crean arquitecturas de seguridad para mantener bloqueada y segura la red.
+
+ - Encriptacion: Protege los datos y archivos reales almacenados en ellos o que viajan entre ellos a través de Internet. Las estrategias de encriptación son cruciales para cualquier empresa que utilice la nube y son una excelente manera de proteger los discos duros, los datos y los archivos que se encuentran en tránsito a través de correo electrónico, en navegadores o en camino hacia la nube.
+En el caso de que los datos sean interceptados, la encriptación dificulta que los hackers hagan algo con ellos. Esto se debe a que los datos encriptados son ilegibles para usuarios no 
+autorizados sin la clave de encriptación.
+
+ - Tokenizacion: Es el proceso que permite proteger datos sensibles, sustituyéndolos por 
+equivalentes no-sensibles, conocidos como tokens. Se utiliza para evitar el robo de datos en las transacciones con tarjetas bancarias.
+
+ - Firewall: Es un software o hardware que se encarga de bloquear el acceso a la red a usuarios no autorizados. Tambien se encarga de evitar la interceptación de datos y bloquear el malware que intenta entrar en la red, y también evitan que la información importante salga, como contraseñas o datos confidenciales.
+
+#### Claves para proteger tus datos personales
+
+##### Actualizarse
+
+Las apps de nuestros dispositivos pueden actualizarse de forma manual o permitir que se 
+actualicen automáticamente. Si mantenemos las apps actualizadas, se podrá acceder a las 
+funciones más recientes con mejoras de estabilidad y seguridad. Esto permite solucionar las 
+fallas y errores de versiones anteriores, como los que registran la protección de datos.
+
+##### La privacidad
+
+Los bares y locutorios ofrecen acceso rápido y barato a redes WIFI o a una PC con internet, 
+pero no sabemos quién puede acceder a ese dispositivo, ni cuáles son las medidas de seguridad 
+que posee. Por lo tanto, nunca se deben ingresar datos privados ni acceder a servicios 
+autenticados, como email, redes sociales y homebanking desde ese tipo de dispositivos.
+
+##### Terminos y Condiciones
+
+Es importante leer los términos y condiciones antes de instalar una aplicación o servicio, 
+para saber si estamos dándole permiso para almacenar nuestros datos en la nube. Si esto ocurre, el servidor se convierte en el dueño de los datos y el usuario pierde el control de su información. Además, es primordial configurar la privacidad de las publicaciones en redes 
+sociales.
+
+##### Mensajes Falsos 
+
+Una de las principales formas de engaño y robo de datos es enviar a los usuarios archivos, 
+formularios, y solicitudes de contacto a través de perfiles y cuentas falsas. Es ideal no 
+responder a mensajes que soliciten información confidencial, aunque digan ser de entidades de 
+confianza. 
+
+##### Utilizar aplicaciones seguras 
+
+Asegurarse de que una aplicación está libre de virus y malware. Existen sitios web de descarga gratuita de programas que engañan a los usuarios y al descargar la aplicación se ejecutan de forma oculta contenidos maliciosos que destruyen o que se apropian de los datos almacenados.
+
+##### ¿Cómo crear una buena contraseña? 
+
+Las contraseñas más robustas y complejas son aquellas que combinan mayúsculas, minúsculas, 
+símbolos y números, no se recomienda utilizar la misma contraseña en todos los servicios ni 
+incluir fechas de nacimiento, aniversarios, números de teléfono o fragmentos del DNI. En el 
+caso de sospechar que una contraseña haya sido comprometida, lo ideal es cambiarla al instante. 
+
+##### Back up 
+
+Es importante que siempre se realicen copias de seguridad de la información en medios de 
+almacenamiento extraíbles, como DVD regrabables, discos externos o Pendrives USB. A la vez, 
+podemos contar con programas que realicen backups automáticos sin que sea necesaria ninguna 
+intervención por parte del usuario para su ejecución.
  
   ### Dilema en las Redes Sociales
 “Hay dos industrias que llaman a sus clientes usuarios: la de las drogas ilegales y la del software". 
