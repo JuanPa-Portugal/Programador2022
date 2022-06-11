@@ -73,6 +73,38 @@ repo proyecto primer cuatrimestre ISPC
 
 
 ![imagen formulario](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG4aP98UDQqLo7-YNy%2FScreen%20Shot%202019-08-26%20at%209.39.34%20PM.png?alt=media&token=2580146b-1493-4966-b404-dd0ceb2d4821)
+
+> Como crear un repositorio ✍️
+
+Para crear un nuevo repositorio hay dos formas de hacerlo:
+  1. Desde el **"menu (+)"**, desplegando selecciono **"New  repository"**.
+  2. Debes seleccionar la pestaña de **"Repositories"** y damos clic en el **botón (verde) "New"**.
+
+  ![imagen seccion crear un repositorio en github](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG5KNCSvAv84RLiAiX%2FScreen%20Shot%202019-08-26%20at%209.55.40%20PM.png?alt=media&token=0d666324-d5c7-4cec-905a-b45929cf98a9)
+
+EsTas opciones nos llevan a una página donde vamos a colocar:
+  1. El nombre del repositorio donde nos indica **"Repository name"**, el campo **Description** es opcional.
+  2. Tildar la opcion **"Public o Private"**.
+  3. Y vamos a dar clic en el botón **"Create repository"**.
+
+/ Aclaracion: Hay otras opciones a tomar pero las mas comunes son las mencionadas /
+
+![imagen seccion de formulario de crear repo github](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG5TMtYTIhDPbSGBFT%2FScreen%20Shot%202019-08-26%20at%209.57.30%20PM.png?alt=media&token=cc5d7ac5-970b-4aa4-b2f0-f88481ac81a0)
+
+Al seleccionar el botón nos quedará una página con la siguiente información:
+  * Enlace para subir a Github un proyecto existente ese repositorio o  ir creando nuestros archivos e ir subiendolos a este repositorio.
+  * Y los comando para subir nuetro proyecto desde nuestro IDE.   
+
+![magen de repositorio github](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG5__LlKz7UUQRsaQr%2FScreen%20Shot%202019-08-26%20at%209.58.51%20PM.png?alt=media&token=ff5525b7-5f38-4aac-a0f8-e6108610c064)
+
+>Tambien podemos **"Clonar un repositorio"** 📄➡️📄.
+
+Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/download) y Git, dentro de **Git** debemos definir (con los comandos) nuestro **usuario e email** de la siguiente manera:
+
+`$ git config --global user.name ` y aseguido  "tu nombre".
+
+` $ git config --global user.email ` y seguido "tumail @dominio.com".
+
     
   
   ### GIT
