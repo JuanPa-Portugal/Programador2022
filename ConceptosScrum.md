@@ -50,7 +50,7 @@ repo proyecto primer cuatrimestre ISPC
     1. **Control De Version:** Nos permite llevar un registro y control del código, permitiendo trabajar de forma segura en los proyectos.
     2. **Git:** Es un **sistema de control específico de versión distribuida**. El código y su historial se encuentran disponibles localmente en la computadora de todo desarrollador.
 
-> **Como crear una cuenta en GitHub 📝**
+>**Como crear una cuenta en GitHub 📝**
 
 **Paso 1**
 - En el navegador de preferencia vamos a colocar : [github.com](https://github.com/ "Click Aqui") 
@@ -74,7 +74,7 @@ repo proyecto primer cuatrimestre ISPC
 
 ![imagen formulario](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG4aP98UDQqLo7-YNy%2FScreen%20Shot%202019-08-26%20at%209.39.34%20PM.png?alt=media&token=2580146b-1493-4966-b404-dd0ceb2d4821)
 
-> Como crear un repositorio ✍️
+>**Como crear un repositorio ✍️**
 
 Para crear un nuevo repositorio hay dos formas de hacerlo:
   1. Desde el **"menu (+)"**, desplegando selecciono **"New  repository"**.
@@ -97,7 +97,7 @@ Al seleccionar el botón nos quedará una página con la siguiente información:
 
 ![magen de repositorio github](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG5__LlKz7UUQRsaQr%2FScreen%20Shot%202019-08-26%20at%209.58.51%20PM.png?alt=media&token=ff5525b7-5f38-4aac-a0f8-e6108610c064)
 
->Tambien podemos **"Clonar un repositorio"** 📄➡️📄.
+>**Tambien podemos "Clonar un repositorio" 📄➡️📄**.
 
 Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/download) y Git, dentro de **Git** debemos definir (con los comandos) nuestro **usuario e email** de la siguiente manera:
 
