@@ -93,7 +93,7 @@ EsTas opciones nos llevan a una página donde vamos a colocar:
 
 Al seleccionar el botón nos quedará una página con la siguiente información:
   * Enlace para subir a Github un proyecto existente ese repositorio o  ir creando nuestros archivos e ir subiendolos a este repositorio.
-  * Y los comando para subir nuetro proyecto desde nuestro IDE.   
+  * Y los comando para subir nuetro proyecto desde nuestra consola.   
 
 ![magen de repositorio github](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG5__LlKz7UUQRsaQr%2FScreen%20Shot%202019-08-26%20at%209.58.51%20PM.png?alt=media&token=ff5525b7-5f38-4aac-a0f8-e6108610c064)
 
