@@ -109,14 +109,14 @@ Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/downloa
 
 
 
-![imagen extension git](foto5.png)
+![imagen extension git](foto1.png)
 
 
 
 * Luego estando dentro del proyecto a clonar, en el boton **"code"** despliega una ventana donde encontramos el **"link de repositorio a clonar"**, hacemos click en el **"boton copiar"**.
 
 
-![imagen de repo a clonar](foto1.png)
+![imagen de repo a clonar](foto2.png)
 
 
 
@@ -128,7 +128,7 @@ Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/downloa
 
 
 
-![imagen de visual studio code git clone](fotogitClone.png)
+![imagen de visual studio code git clone](foto3.png)
 
 
 De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcando los ficheros que vamos modificando, por medio de los **"commit"** que vallamos realizando.
