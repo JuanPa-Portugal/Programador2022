@@ -140,10 +140,7 @@ De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcan
 ![imagen autorizacion git](foto4.png)
 
 
-Desde la pestaña de Git podemos hacer el “commit” de los ficheros. En primer lugar, incluiremos los ficheros a los que queremos hacer stage pulsando en “+” o “todos”. Además debemos escribir el mensaje del Commit e Intro para terminar. 
-Para hacer push de los cambios o pull para copiar los datos de servidor podemos hacerlo de dos maneras:
-Podemos pulsar en la parte derecha de la barra de git (icono tres puntos) y elegir la opción push o pull.
-Podemos pulsar en la parte inferior sobre sincronizar (en este caso haríamos push y pull).
+
     
   
   ### GIT
