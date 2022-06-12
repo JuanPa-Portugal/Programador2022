@@ -134,13 +134,25 @@ Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/downloa
 De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcando los ficheros que vamos modificando, por medio de los **"commit"** que vallamos realizando.
 
 
-* Además debemos autorizar nuestra cuenta Github en Visual Studio Code. Para ello, vete a la barra inferior de Visual Studio y presiona sobre el icono de Git e introduce tu cuenta de Github
+* Además debemos **autorizar nuestra cuenta Github en Visual Studio Code**. Para ello, vete a la **barra inferior de Visual Studio** y presiona sobre el **"icono de Git"** e introduce tu cuenta de Github.
 
 
 ![imagen autorizacion git](foto4.png)
 
 
+* Desde la **pestaña de Git** (imagen 1) podemos hacer **el “commit” de los ficheros**. 
+    * En primer lugar pulsando ya sea en **“(+)”** para incluir uno a uno los ficheros "O" pulsamos en **“todos (✓)”** para incluir todos los ficheros (imagen 2) a los que queremos hacer **Stage** (imagen 3).
+    * Luego en ambos casos, se nos abre una ventana donde **debemos escribir el mensaje del Commit** y pulsar **Intro (Enter)** para terminar (imagen 4).
 
+
+
+![imagen como usar git en visual](foto5.png)
+
+
+* Continuando, para hacer **push de los cambios o pull para copiar los datos de servidor** podemos hacerlo de dos maneras:
+      
+    * Primera opcion: Podemos pulsar en la parte derecha de la barra de git (icono tres puntos) y elegir la opción push o pull.
+    * Segunda opcion: Podemos pulsar en la parte inferior sobre sincronizar (en este caso haríamos push y pull).
     
   
   ### GIT
