@@ -105,7 +105,7 @@ Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/downloa
 
 ` $ git config --global user.email ` y seguido "tumail @dominio.com".
 
-* Tambien debemos tener intalado en nuestro **Visual Studio Code** desde las extenciones a intalar **"GitHub Pull Request"** o tambien desde **"menu / view / Terminal.
+* Tambien debemos tener intalado en nuestro **Visual Studio Code** desde las extenciones a intalar **"GitHub Pull Request"** o tambien desde **"menu / view / Terminal"**.
 
 
 
@@ -116,7 +116,7 @@ Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/downloa
 * Luego estando dentro del proyecto a clonar, en el boton **"code"** despliega una ventana donde encontramos el **"link de repositorio a clonar"**, hacemos click en el **"boton copiar"**.
 
 
-![imagen de repo a clonar](foto2.png)
+![imagen de repo a clonar](foto8.png)
 
 
 
@@ -151,8 +151,12 @@ De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcan
 
 * Continuando, para hacer **push de los cambios o pull para copiar los datos de servidor** podemos hacerlo de dos maneras:
       
-    * Primera opcion: Podemos pulsar en la parte derecha de la barra de git (icono tres puntos) y elegir la opción push o pull.
-    * Segunda opcion: Podemos pulsar en la parte inferior sobre sincronizar (en este caso haríamos push y pull).
+    * Primera opcion: Podemos pulsar en la parte inferior sobre el boton **Sync Changes (sincronizar)** y en este caso haríamos **"push y pull"** (imagen 1).
+
+    * Segunda opcion: Podemos pulsar en **la parte derecha de la barra de git (icono tres puntos)** y elegir la opción **push** o **pull**.
+
+
+![imagen como hacer push o pull](foto6.png)
     
   
   ### GIT
