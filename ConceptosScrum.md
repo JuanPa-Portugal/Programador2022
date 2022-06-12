@@ -105,6 +105,38 @@ Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/downloa
 
 ` $ git config --global user.email ` y seguido "tumail @dominio.com".
 
+* Tambien debemos tener intalado en nuestro **Visual Studio Code** desde las extenciones a intalar **"GitHub Pull Request"** o tambien desde **"menu / view / Terminal.
+
+
+
+![imagen extension git](foto5.png)
+
+
+
+* Luego estando dentro del proyecto a clonar, en el boton **"code"** despliega una ventana donde encontramos el **"link de repositorio a clonar"**, hacemos click en el **"boton copiar"**.
+
+
+![imagen de repo a clonar](foto1.png)
+
+
+
+* Ahora vamos a clonar el proyecto creado en Github desde **Visual Studio Code** de la siguiente manera:
+
+    * Para ello, nos vamos al **menú “view” (ver)**  seleccionamos **“command palette” (paleta de comando)**. 
+    * En ese punto buscamos **“git: Clone”**.
+    * La herramienta nos pedirá **"la ruta" (URL)** y ahí es donde tenemos que **pegar "la URL del repositorio"** que hemos creado en el punto anterior en Github o del repositorio que queremos clonar.
+
+
+
+![imagen de visual studio code git clone](fotogitClone.png)
+
+
+De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcando los ficheros que vamos modificando, por medio de los **"commit"** que vallamos realizando.
+
+
+* Además debemos autorizar nuestra cuenta Github en Visual Studio Code. Para ello, vete a la barra inferior de Visual Studio y presiona sobre el icono de Git e introduce tu cuenta de Github
+
+
     
   
   ### GIT
