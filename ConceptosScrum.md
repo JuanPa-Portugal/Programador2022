@@ -119,7 +119,6 @@ Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/downloa
 ![imagen de repo a clonar](foto8.png)
 
 
-
 * Ahora vamos a clonar el proyecto creado en Github desde **Visual Studio Code** de la siguiente manera:
 
     * Para ello, nos vamos al **menú “view” (ver)**  seleccionamos **“command palette” (paleta de comando)**. 
