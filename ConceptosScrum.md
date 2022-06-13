@@ -185,9 +185,113 @@ De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcan
 
 
 ![imagen como hacer push o pull](foto11.png)
-    
+
+___
+___
+___
+___
   
-  ### GIT
+ 
+ ## GIT(Ssistema de control de Versiones)
+
+ ![](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Git-logo.svg/1280px-Git-logo.svg.png)
+  
+  
+  ### Sistema de control de Versiones
+
+  En el mundo del desarrollo web es importante mantener registrado cada cambio que se realiza a un diseño o programa, usar un **sistema de control de versiones como Git** te va a permitir:
+
+  * Ver de forma detallada quien modifico el codigo
+  * volver en el tiempo para regresar a versiones anteriores
+  * ver quien introdujo un problema y cuando
+
+sin duda alguna gracias a git podras recuperarte de cualquier perdida o daño de archivos y a un muy bajo costo
+
+### operaciones son locales
+
+las operaciones realizadas en Git solo requieren archivos y recursos locales para funcionar, gracias a que todos los registros, historias de tu proyecto estan en tu disco local,esto significa que ves la historia del proyecto casi instantaneamente
+
+### La integridad con Git
+
+No se puede sufrir corrupcion o perdida de datos sin que git sea capaz de detectarlo ya que git es verificado mediante una suma de comprobacion  antes de ser almacenado y es identificado a partir de ese momento mediante dicha suma
+
+el mecanismo para generar la suma se conoce como **hash SHA-1**
+que es una cadena de 40 caracteres hexadecimales
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZMlskC8W64qpP2vXPtq46MzcyOPJH7G42ag&usqp=CAU)
+
+### Repositorios y sus tipos:
+
+el repositorio es el lugar en el que se almacenan los datos actualizados e histotricos de cambios y pueden ser:
+* **Locales.-** Los datos guardados localmente y no se comparten con nadie es el mas sencillo de usar y no se recomienda cuando se trabaja en equipo
+* **Centralizados.-** Existe un repositorio centralizado de todo el código, del cual es responsable un único usuario,  Se facilitan las tareas administrativas a cambio de reducir flexibilidad, pues todas las decisiones fuertes *(como crear una nueva rama)* necesitan la aprobación del responsable
+  * Se realiza en un servidor que se encargará de recibir y dar los cambios realizados en el archivo a cada uno de los usuarios
+* **Distribuidos.-** Cada usuario tiene su propio repositorio. Los distintos repositorios pueden intercambiar y mezclar revisiones entre ellos. Es frecuente el uso de un repositorio, que está normalmente disponible, que sirve de punto de sincronización de los distintos repositorios locales.
+  * El modelo distribuido es el más utilizado, en este caso cada usuario tiene un control de versiones propio que a su vez son manejadas por el servidor.
+
+###Comandos Para La Configuracion de Git
+
+Una ves instalado Git en tu equipo vamos a usar la consola Git bash para realizar las configuraciones necesarias
+
+ Git config: es un comando que permite configurar  todos los aspectos de cómo funcionará Git de manera local, global o system.
+
+* git config mantiene su valor entre actualizaciones. Por lo tanto, se debe configurar solo una vez. Todos los archivos de configuración tienen la misma sintaxis, pero un alcance diferente. Esto ofrece mucha flexibilidad.
+
+Existe 3  comandos para el almacenamiento:
+
+* Local.
+* Global.
+*  System.
+
+Además, es importante recordar que cada nivel anula los valores del nivel anterior.
+
+Prioridad:
+
+* Local > Global > System
+
+*  Local: las configuraciones locales están disponibles solo para el repositorio actual. Puede hacer que git lea y escriba desde la computadora que se está utilizando solo localmente
+  
+        git config --local
+
+*  Global: las configuraciones globales están disponibles para los usuarios actuales para todos los proyectos.
+
+        git config --global
+
+
+*  System: ésta configuración están disponibles para cada usuario en el sistema y se requiere que tengas permisos de administración.
+
+     git config --system
+con estos comandos configuramosnuestro nombre y correo electronico quese mostraran en los commits, por lo general el correo electronico suele ser el mismo de tu git-hub
+* git config --global user.name "tu nombre"
+* git config --global user.email "tu email"
+
+#### Para configurar el usuario que va a escribir en la bitácora.
+
+Esto mostrará datos de la identidad con la que hemos creado el usuario así como otros datos de la máquina con la que estamos trabajando. Con git config podremos configurar git para registrar diferente identidades, por si usamos un ordenador para diferentes desarrolladores o si nos interesa registrar los cambios bajo diferentes nombres. Esto lo podemos realizar mediante los comandos:
+  
+  En nuestra imagen colocaremos nuestrasfirmas con nombre y correo electronico conconfiguracion Global
+
+* git config --local user.name "Nombre Apellido"
+
+* git config --local user.email "tuemail@ejemplo.com" (para configurar el usuario que va a escribir en la "Bitácora" desde una máquina).
+  
+
+ ![](https://quesignificaelerror.com/wp-content/uploads/2021/03/1614966023_100_%C2%BFQue-es-Git-Bash-y-como-instalarlo-en-Windows.png)
+
+
+### ¿Cómo creas tu primer repositorio?
+
+* El comando **ls** muestra todos los archivos en carpeta.
+
+* El comando **mkdir** (make directory) crea una carpeta la cual contendra tu repositorio (tu archivo *.git*).
+
+      Ejemplo: mkdir nombre-del-proyecto
+
+* cd nombre-del-proyecto/ (para entrar a la carpeta existente).
+
+* **git init** (una vez dentro de la carpeta, ejecutar este comando). con esto tendras tu repositorio creado
+  
+  ![](https://www.freecodecamp.org/espanol/news/content/images/2021/03/image-7.png)
   
   
   
