@@ -213,10 +213,15 @@ El software informático es un bien que tiene características específicas. Par
  Las personas que proveen servicios informáticos y los que utilizan ordenadores, datos y programas han de ser responsables de la integridad y conveniencia de los resultados de sus acciones. Aquí se menciona lo siguiente:
  
 •	Las consecuencias de los errores en datos y algoritmos.
+
 •	Problemas que pueden ser causados por la falta de protección en la seguridad de sistemas con datos sensibles o que implican riesgos en la salud de clientes. 
+
 •	Los actos de terrorismo lógico.
+
 •	Las acciones de fanáticos. 
+
 •	El espionaje de datos.
+
 •	Las introducciones de virus y gusanos. 
 
 **la Inteligencia artificial.**
@@ -256,10 +261,15 @@ La Deontología informática hace referencia a la ciencia o tratado de los deber
 Internet es el último y el más poderoso de una serie de medios de comunicación. Como sucede con otros medios de comunicación, la persona y la comunidad de personas son el centro de la valoración ética de Internet. Con respecto al mensaje comunicado, al proceso de comunicación y a las cuestiones estructurales y sistemáticas de la comunicación La cuestión ética consiste en saber si esto está contribuyendo al auténtico desarrollo humano y ayudando a las personas y a los pueblos a ser fieles a su destino trascendente. Internet tiene un conjunto de características impresionantes como lo describimos a continuación: 
 
 • Instantáneo. 
+
 • Inmediato. 
+
 • Mundial. 
+
 • Descentralizado. 
+
 • Interactivo. 
+
 Capaz de extender ilimitadamente sus contenidos y su alcance, flexible y adaptable. Puede emplearse para romper el aislamiento de personas y grupos o al contrario, para profundizarlo, Internet le sirve a la gente en su ejercicio responsable de la libertad y la democracia, a ampliar la gama de opciones realizables en diversas esferas de la vida, ensanchar los horizontes educativos y culturales, superar las divisiones y promover el desarrollo humano.
 
  **Los problemas éticos más significativos en Internet.**
