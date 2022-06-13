@@ -109,14 +109,14 @@ Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/downloa
 
 
 
-![imagen extension git](foto6.png)6
+![imagen extension git](foto6.png)
 
 
 
 * Luego estando dentro del proyecto a clonar, en el boton **"code"** despliega una ventana donde encontramos el **"link de repositorio a clonar"**, hacemos click en el **"boton copiar"**.
 
 
-![imagen de repo a clonar](foto7.png)7
+![imagen de repo a clonar](foto7.png)
 
 
 * Ahora vamos a clonar el proyecto creado en Github desde **Visual Studio Code** de la siguiente manera:
@@ -127,7 +127,7 @@ Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/downloa
 
 
 
-![imagen de visual studio code git clone](foto8.png)8
+![imagen de visual studio code git clone](foto8.png)
 
 
 De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcando los ficheros que vamos modificando, por medio de los **"commit"** que vallamos realizando.
@@ -136,7 +136,7 @@ De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcan
 * Además debemos **autorizar nuestra cuenta Github en Visual Studio Code**. Para ello, vete a la **barra inferior de Visual Studio** y presiona sobre el **"icono de Git"** e introduce tu cuenta de Github.
 
 
-![imagen autorizacion git](foto9.png)9
+![imagen autorizacion git](foto9.png)
 
 
 * Desde la **pestaña de Git** (imagen 1) podemos hacer **el “commit” de los ficheros**. 
@@ -145,7 +145,7 @@ De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcan
 
 
 
-![imagen como usar git en visual](foto10.png)10
+![imagen como usar git en visual](foto10.png)
 
 
 * Continuando, para hacer **push de los cambios o pull para copiar los datos de servidor** podemos hacerlo de dos maneras:
@@ -155,7 +155,7 @@ De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcan
     * Segunda opcion: Podemos pulsar en **la parte derecha de la barra de git (icono tres puntos)** y elegir la opción **push** o **pull**.
 
 
-![imagen como hacer push o pull](foto11.png)11
+![imagen como hacer push o pull](foto11.png)
     
   
   ### GIT
