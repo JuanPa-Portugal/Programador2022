@@ -293,6 +293,36 @@ Esto mostrará datos de la identidad con la que hemos creado el usuario así com
   
   ![](https://www.freecodecamp.org/espanol/news/content/images/2021/03/image-7.png)
   
+### Pasos para añadir archivos a nuestro repositorio y crear nuestros primer commit:
+
+1. Una vez que tenemos ya creadas las carpetas con sus respectivos archivos dentro.
+2. Tecleamos **git status**
+   
+        veremos los archivos listos para ser enviados a nuestra área de preparación, los archivos deben figurar en color rojo.
+3. Tecleamos **git add .** Para añadir lo que contiene ambas carpetas
+
+        En caso de querer agregar un archivo especifico se debe teclear Git add "nombre del archivo"
+        Para borrar el archivo del área de preparación Git reset.
+
+4. nuevamente tecleamos **git status**.
+   
+        ahora nos aparecerán los archivos que fueron añadidos en color verde "
+
+5. nuestros archivos están listos para ser commiteados escribimos.
+
+
+    **git commit -m "mi primer commit "**
+               
+                
+6. **Git log**   con este comando leemos nuestros commit en nuestra vitacora o historial . escribir **q** para salir de la vitacora 
+
+*imagen donde se muestra los comandos git status, git add, git commit -m ""*
+![](https://w3cschoool.com/public/file/GitHub/git-push1.png)
+
+___
+___
+___
+
   
   
 ---  
