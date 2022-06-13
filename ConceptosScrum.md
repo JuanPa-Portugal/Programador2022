@@ -195,6 +195,8 @@ De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcan
 ## Resumen de ÉTICA Y DEONTOLOGÍA PROFESIONAL
 
   ### Ética y Deontología
+  
+  
   ETICA EN LA INFORMATICA
 Para entender y adentrarnos a la EI es necesario abordar primero a el concepto puro de Ética.
 La ética es una disciplina filosófica que se define como "principios directivos que orientan a las personas en cuanto a la concepción de la vida, el hombre, los juicios, los hechos, y la moral”.
@@ -209,6 +211,8 @@ Lo informático como instrumento de actos potencialmente dañinos:
 •	El espionaje de datos.
 •	Las introducciones de virus y gusanos. 
 no solo de luchar contra acciones expresamente dañinas sino de fomentar una responsabilidad en las aplicaciones informáticas .
+
+
 la Inteligencia artificial.
  La EI toma en consideración de las visiones antropomórficas sobre los ordenadores como máquinas pensantes o como productores de verdades absolutas e infalibles. Sin embargo, también plantean problemas éticos. Por un lado, los referentes a los valores internos a los sistemas , por otro lado, posibles sesgos escondidos en el proceso de toma de decisiones; por último, hasta qué punto son los diseñadores de estos sistemas responsables de los resultados de los mismos
 Dimensiones sociales de la informática.
