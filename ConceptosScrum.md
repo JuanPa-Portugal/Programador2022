@@ -197,34 +197,43 @@ De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcan
   ### Ética y Deontología
   
   
-  ETICA EN LA INFORMATICA
+  ###ETICA EN LA INFORMATICA
+  
 Para entender y adentrarnos a la EI es necesario abordar primero a el concepto puro de Ética.
-La ética es una disciplina filosófica que se define como "principios directivos que orientan a las personas en cuanto a la concepción de la vida, el hombre, los juicios, los hechos, y la moral”.
+La ética es una disciplina filosófica que se define como *"principios directivos que orientan a las personas en cuanto a la concepción de la vida, el hombre, los juicios, los hechos, y la moral”.*
 La tecnología informática plantea nuevas situaciones y nuevos problemas y gran parte ellas son de una naturaleza ética.La propiedad de los bienes informáticos:
 El software informático es un bien que tiene características específicas. Parece que el problema podría subsumirse y reducirse a la protección de la propiedad intelectual. Al plantearnos la protección de software surgen nuevos problemas posesión de propiedad, atribución, pirateo, plagio, derechos de autor, secretos industriales, derechos sobre productos, etc. Unido a esto están los problemas de 3 cesión de software comercial, la producción de software nuevo a partir de un programa ya existente, la mejora de productos utilizando materiales registrados de la competencia, etc.
-Lo informático como instrumento de actos potencialmente dañinos:
+
+**Lo informático como instrumento de actos potencialmente dañinos:**
  Las personas que proveen servicios informáticos y los que utilizan ordenadores, datos y programas han de ser responsables de la integridad y conveniencia de los resultados de sus acciones. Aquí se menciona lo siguiente:
+ 
 •	Las consecuencias de los errores en datos y algoritmos.
 •	Problemas que pueden ser causados por la falta de protección en la seguridad de sistemas con datos sensibles o que implican riesgos en la salud de clientes. 
 •	Los actos de terrorismo lógico.
 •	Las acciones de fanáticos. 
 •	El espionaje de datos.
 •	Las introducciones de virus y gusanos. 
-no solo de luchar contra acciones expresamente dañinas sino de fomentar una responsabilidad en las aplicaciones informáticas .
 
+**la Inteligencia artificial.**
 
-la Inteligencia artificial.
  La EI toma en consideración de las visiones antropomórficas sobre los ordenadores como máquinas pensantes o como productores de verdades absolutas e infalibles. Sin embargo, también plantean problemas éticos. Por un lado, los referentes a los valores internos a los sistemas , por otro lado, posibles sesgos escondidos en el proceso de toma de decisiones; por último, hasta qué punto son los diseñadores de estos sistemas responsables de los resultados de los mismos
-Dimensiones sociales de la informática.
+ 
+**Dimensiones sociales de la informática.**
  La informática ha contribuido en el desarrollo de las tecnologías de la información, contribuyendo de esta manera en el desarrollo positivo de los medios de comunicación social. En consecuencia de ello podemos mencionar que los informáticos han sido unos trabajadores claves de la tecnología militar. Desde la EI se podría concienciar a los informáticos sobre la eticidad de desarrollar modos "superinteligentes" para idear sufrimiento y destrucción humana y de alimentar mercados militares en países en desarrollo por parte de los que poseen tecnología.
 Esto es un problema que se da debido a la poca diversidad cultural de los sistemas y medios de información y comunicación que nos invaden.
-LA DEONTOLOGÍA INFORMÁTICA. 
-la deontología es la parte de la ética que trata sobre los deberes, especialmente relacionados con el ejercicio de una determinada profesión. 
+
+
+**LA DEONTOLOGÍA INFORMÁTICA.**
+
+La deontología es la parte de la ética que trata sobre los deberes, especialmente relacionados con el ejercicio de una determinada profesión. 
 La Deontología informática hace referencia a la ciencia o tratado de los deberes y normas éticas, que conciernen a los profesionales que a diario están en contacto con la tecnología y los medios masivos de comunicación como internet. Por lo tanto trata, de la moral o ética profesional en el manejo de la información. 
- LOS CÓDIGOS ÉTICOS .
-"Los códigos de ética, tal como se conocen en el mundo de las empresas, son sistemas de reglas establecidos con el propósito general de guiar el comportamiento de los integrantes de la organización y de aquellos con los cuales ésta actúa habitualmente: clientes, proveedores y contratistas. No obstante la profesión de informática, es una actividad reconocida socialmente y así el futuro profesional informático, debe estar preparado para que un juez o una empresa le solicite un dictamen o peritaje informático y es evidente que este tipo de informes, en la práctica, deben estar firmados por alguien con titulación superior, actuando con Probidad profesional, y obrando según ciencia y conciencia." 
-Los diez mandamientos de la ética informática
-. 1) No usarás una computadora para dañar a otros.
+ 
+ **LOS CÓDIGOS ÉTICOS.**
+ 
+*"Los códigos de ética, tal como se conocen en el mundo de las empresas, son sistemas de reglas establecidos con el propósito general de guiar el comportamiento de los integrantes de la organización y de aquellos con los cuales ésta actúa habitualmente: clientes, proveedores y contratistas. No obstante la profesión de informática, es una actividad reconocida socialmente y así el futuro profesional informático, debe estar preparado para que un juez o una empresa le solicite un dictamen o peritaje informático y es evidente que este tipo de informes, en la práctica, deben estar firmados por alguien con titulación superior, actuando con Probidad profesional, y obrando según ciencia y conciencia."*
+
+**Los diez mandamientos de la ética informática**
+ 1) No usarás una computadora para dañar a otros.
  2) No interferirás con el trabajo ajeno. 
 3) No indagarás en los archivos ajenos. 
 4) No utilizarás una computadora para robar.
@@ -234,7 +243,8 @@ Los diez mandamientos de la ética informática
  8) No te apropiarás de los derechos intelectuales de otros.
  9) Deberás evaluar las consecuencias sociales de cualquier código que desarrolles. 
 10) Siempre utilizarás las computadoras de manera de respetar los derechos de los demás. 
-LA ÉTICA EN INTERNET  
+
+**LA ÉTICA EN INTERNET** 
 Internet es el último y el más poderoso de una serie de medios de comunicación. Como sucede con otros medios de comunicación, la persona y la comunidad de personas son el centro de la valoración ética de Internet. Con respecto al mensaje comunicado, al proceso de comunicación y a las cuestiones estructurales y sistemáticas de la comunicación La cuestión ética consiste en saber si esto está contribuyendo al auténtico desarrollo humano y ayudando a las personas y a los pueblos a ser fieles a su destino trascendente. Internet tiene un conjunto de características impresionantes como lo describimos a continuación: 
 • Instantáneo. 
 • Inmediato. 
@@ -242,22 +252,15 @@ Internet es el último y el más poderoso de una serie de medios de comunicació
 • Descentralizado. 
 • Interactivo. 
 Capaz de extender ilimitadamente sus contenidos y su alcance, flexible y adaptable. Puede emplearse para romper el aislamiento de personas y grupos o al contrario, para profundizarlo, Internet le sirve a la gente en su ejercicio responsable de la libertad y la democracia, a ampliar la gama de opciones realizables en diversas esferas de la vida, ensanchar los horizontes educativos y culturales, superar las divisiones y promover el desarrollo humano.
- Los problemas éticos más significativos en Internet. 
+
+ **Los problemas éticos más significativos en Internet.**
 En gran medida el desarrollo científico y tecnológico de este siglo ha sido impulsado por intereses vinculados con el afán de la hegemonía mundial de las grandes potencias, a las exigencias del desarrollo industrial, así como a las pautas de consumo que se producen y se difunden desde las sociedades que han marcado la avanzada en los procesos de modernización. A continuación, una lista sobre los problemas éticos:
 • La privacidad: no tanto la posibilidad (real) de fallos en los sistemas de correo, sino más bien la intromisión intencional. 
  • La Identidad: es posible esconder la verdadera identidad a la hora de intervenir en una conversación. 
 • La Inversa: la capacidad de manipulación se traslada de los mecanismos habituales a la sociedad (como la posición social económica) a las habilidades de aquellos que manejan más el medio o que pueden intervenir de manera subrepticia en las comunicaciones ajenas. 
- LA SOCIEDAD DE LA INFORMACIÓN. 
-La Sociedad de la Información es resultado, de los procesos que podríamos llamar de informatización que se producen en los Estados Nacionales, por medio de los cuales se hace posible que actores de cada vez más amplios sectores sociales tengan acceso al uso de las TICs (tecnologías de información y comunicaciones) para su participación en la vida social. Vistas las cosas así, integrando la visión local con la global, una sociedad, un país, un Estado-Nación particular puede no ser una Sociedad de la Información, pero, a través de algunos de sus sectores sociales, participar de la Sociedad de la Información. Pero en los países de América Latina y el Caribe los que forman parte de la Sociedad de la Información son minoritarios por lo que afirmamos que las sociedades latinoamericanas no son sociedades de la información. En ellas están presentes en grados relativamente bajos, en todo caso, son sociedades en proceso de informatización; en camino de llegar a ser sociedades de la información, si las vemos desde la óptica evolucionista que impregna mayoritariamente a la opinión especializada en el área.
 
-La IE se plantea varios objetivos: 
-•	Descubrir y articular dilemas éticos claves en informática.
-•	Determinar en qué medida son agravados, transformados o creados por la tecnología informática
-•	Analizar y proponer un marco conceptual adecuado y formular principios de actuación para determinar qué hacer en las nuevas actividades ocasionadas por la informática en las que no se perciben con claridad líneas de actuación.
-•	Utilizar la teoría ética para clarificar los dilemas éticos y detectar errores en el razonamiento ético. 
-•	Proponer un marco conceptual adecuado para entender los dilemas éticos que origina la informática y además establecer una guía cuando no existe reglamentación de dar uso a Internet.
-La utilización de Información:
-Se plantean problemas de invasión de la privacidad, de falta de confidencialidad en la información, sobre todo de datos sensibles. Los esfuerzos por proteger la integridad y confidencialidad de la información chocan con la necesidad de información de las entidades públicas y privadas y los entornos académicos o de investigación, es decir, con su derecho a la libertad de información. 
+ **LA SOCIEDAD DE LA INFORMACIÓN.** 
+La Sociedad de la Información es resultado, de los procesos que podríamos llamar de informatización que se producen en los Estados Nacionales, por medio de los cuales se hace posible que actores de cada vez más amplios sectores sociales tengan acceso al uso de las TICs (tecnologías de información y comunicaciones) para su participación en la vida social. Vistas las cosas así, integrando la visión local con la global, una sociedad, un país, un Estado-Nación particular puede no ser una Sociedad de la Información, pero, a través de algunos de sus sectores sociales, participar de la Sociedad de la Información. Pero en los países de América Latina y el Caribe los que forman parte de la Sociedad de la Información son minoritarios por lo que afirmamos que las sociedades latinoamericanas no son sociedades de la información. En ellas están presentes en grados relativamente bajos, en todo caso, son sociedades en proceso de informatización; en camino de llegar a ser sociedades de la información, si las vemos desde la óptica evolucionista que impregna mayoritariamente a la opinión especializada en el área.
 
   ### Seguridad en la red
 A traves de internet, podemos conectarnos con todo el munod y realizar infinidad de tareas, sin embargo, también es muchas veces el medio por las que accedemos a virus y es también utilizado como medio por los hackers para robarnos
