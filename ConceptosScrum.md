@@ -9,6 +9,35 @@ repo proyecto primer cuatrimestre ISPC
   
   ### Introduccion a la Base de Datos
   
+ ### SISTEMAS GESTORES DE BASE DE DATOS(Gestion y Diseño)
+  
+ ## Tipos fundamentales de sistemas de información (dos puntos determinantes):
+ **Sistemas de Información orientados a procesos:**
+ Antes la información se trataba y se gestionaba utilizando los típicos sistemas de gestión de archivos que iban soportados sobre un sistema operativo. Éstos        consistían en un conjunto de programas que definían y trabajaban sus propios datos. Los datos se almacenan en archivos y los programas manejan esos archivos para obtener la información. Si la estructura de los datos de los archivos cambia, todos los programas que los manejan se deben modificar. En estos sistemas de información se crean diversas aplicaciones (software) para gestionar diferentes aspectos del sistema; esto trae una única ventaja y es que los procesos son independientes por lo que la modificación de uno no afectaba al resto pero esto también supone un gran inconveniente a la hora de tratar grandes volúmenes de información .A estos sistemas se les llama sistemas de gestión de ficheros.
+ *Inconvenientes de un sistema de gestión de archivos:*
+- Redundancia e inconsistencia de los datos.
+- Dependencia de los datos física-lógica. 
+- Dificultad para tener acceso a los datos.
+- Separación y aislamiento de los datos.
+- Dificultad para el acceso concurrente.
+- Dependencia de la estructura del archivo con el lenguaje de programación.
+- Problemas en la seguridad de los datos.
+- Problemas de integridad de datos (datos inconsistentes).
+
+ **Sistemas de Información orientados a los datos. Bases de Datos.**
+ El objetivo primordial de un gestor es proporcionar eficiencia y seguridad a la hora de extraer o almacenar información en una base de datos centralizada y común a todas las aplicaciones (una aplicación modifica un dato, dicho dato la modificación será visible para el resto de aplicaciones). Los sistemas gestores de BBDD están diseñados para gestionar grandes bloques de información, que implica tanto la definición de estructuras para el almacenamiento como de mecanismos para la gestión de la información. 
+ Una BD es un gran almacén de datos que se define una sola vez; los datos pueden ser accedidos de forma simultánea por varios usuarios; están relacionados y existe un número mínimo de duplicidad; la descripción de esos datos (metadatos) el BBDD los almacena.
+
+ *Ventajas*                                                              *Desventajas*
+- Independencia de los datos y los programas y procesos.                - Instalación costosa.
+- Menor redundancia.                                                    - Requiere personal cualificado.
+- Integridad de los datos.                                              - Implantacion larga y difícil.
+- Mayor seguridad en los datos.                                         - Excesiva dependencia hacia los sistemas comerciales del mercado.
+- Datos más documentados. 
+- Acceso a los datos más eficiente.
+- Menor espacio de almacenamiento. 
+- Acceso simultáneo a los datos. 
+
   
 ---
 ## Resumen Metodologías Agiles y Gestión de Proyectos
