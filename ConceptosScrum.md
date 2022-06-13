@@ -60,7 +60,7 @@ repo proyecto primer cuatrimestre ISPC
 
 
 
-![imagen login GitHub](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG4V70dEKGuCvHT25d%2FScreen%20Shot%202019-08-26%20at%209.38.00%20PM.png?alt=media&token=195124c9-06ed-4c3b-872a-518e8a44f843)
+![imagen login GitHub](foto1.png)       foto1
 
 **Paso 2**
 
@@ -72,7 +72,7 @@ repo proyecto primer cuatrimestre ISPC
 - Una vez confirmada nuestra cuenta, podemos ir a nuestro espacio de GitHub y empezar a crear nuestros repositorios y visitar los que ya tenemos creados. Además de personalizarlo editando nuestro perfil (foto, nombre, datos personales, etc).
 
 
-![imagen formulario](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG4aP98UDQqLo7-YNy%2FScreen%20Shot%202019-08-26%20at%209.39.34%20PM.png?alt=media&token=2580146b-1493-4966-b404-dd0ceb2d4821)
+![imagen formulario](foto2.png) foto2
 
 >**Como crear un repositorio ✍️**
 
@@ -80,7 +80,7 @@ Para crear un nuevo repositorio hay dos formas de hacerlo:
   1. Desde el **"menu (+)"**, desplegando selecciono **"New  repository"**.
   2. Debes seleccionar la pestaña de **"Repositories"** y damos clic en el **botón (verde) "New"**.
 
-  ![imagen seccion crear un repositorio en github](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG5KNCSvAv84RLiAiX%2FScreen%20Shot%202019-08-26%20at%209.55.40%20PM.png?alt=media&token=0d666324-d5c7-4cec-905a-b45929cf98a9)
+  ![imagen seccion crear un repositorio en github](foto3.png) foto3
 
 EsTas opciones nos llevan a una página donde vamos a colocar:
   1. El nombre del repositorio donde nos indica **"Repository name"**, el campo **Description** es opcional.
@@ -89,13 +89,13 @@ EsTas opciones nos llevan a una página donde vamos a colocar:
 
 / Aclaracion: Hay otras opciones a tomar pero las mas comunes son las mencionadas /
 
-![imagen seccion de formulario de crear repo github](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG5TMtYTIhDPbSGBFT%2FScreen%20Shot%202019-08-26%20at%209.57.30%20PM.png?alt=media&token=cc5d7ac5-970b-4aa4-b2f0-f88481ac81a0)
+![imagen seccion de formulario de crear repo github](foto4.png) foto4
 
 Al seleccionar el botón nos quedará una página con la siguiente información:
   * Enlace para subir a Github un proyecto existente ese repositorio o  ir creando nuestros archivos e ir subiendolos a este repositorio.
   * Y los comando para subir nuetro proyecto desde nuestra consola.   
 
-![magen de repositorio github](https://1063914396-files.gitbook.io/~/files/v0/b/gitbook-legacy-files/o/assets%2F-LbFy569GFu09bPpzMDJ%2F-LnG47x9siFX6qSbyj82%2F-LnG5__LlKz7UUQRsaQr%2FScreen%20Shot%202019-08-26%20at%209.58.51%20PM.png?alt=media&token=ff5525b7-5f38-4aac-a0f8-e6108610c064)
+![magen de repositorio github](foto5.png) foto5
 
 >**Tambien podemos "Clonar un repositorio" 📄➡️📄**.
 
@@ -109,14 +109,14 @@ Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/downloa
 
 
 
-![imagen extension git](foto1.png)
+![imagen extension git](foto6.png)6
 
 
 
 * Luego estando dentro del proyecto a clonar, en el boton **"code"** despliega una ventana donde encontramos el **"link de repositorio a clonar"**, hacemos click en el **"boton copiar"**.
 
 
-![imagen de repo a clonar](foto8.png)
+![imagen de repo a clonar](foto7.png)7
 
 
 * Ahora vamos a clonar el proyecto creado en Github desde **Visual Studio Code** de la siguiente manera:
@@ -127,7 +127,7 @@ Previo haber intalado [Visual Studio Code](https://code.visualstudio.com/downloa
 
 
 
-![imagen de visual studio code git clone](foto3.png)
+![imagen de visual studio code git clone](foto8.png)8
 
 
 De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcando los ficheros que vamos modificando, por medio de los **"commit"** que vallamos realizando.
@@ -136,7 +136,7 @@ De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcan
 * Además debemos **autorizar nuestra cuenta Github en Visual Studio Code**. Para ello, vete a la **barra inferior de Visual Studio** y presiona sobre el **"icono de Git"** e introduce tu cuenta de Github.
 
 
-![imagen autorizacion git](foto4.png)
+![imagen autorizacion git](foto9.png)9
 
 
 * Desde la **pestaña de Git** (imagen 1) podemos hacer **el “commit” de los ficheros**. 
@@ -145,7 +145,7 @@ De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcan
 
 
 
-![imagen como usar git en visual](foto5.png)
+![imagen como usar git en visual](foto10.png)10
 
 
 * Continuando, para hacer **push de los cambios o pull para copiar los datos de servidor** podemos hacerlo de dos maneras:
@@ -155,7 +155,7 @@ De esta forma ya se ha creado nuestro repositorio y la herramienta nos va marcan
     * Segunda opcion: Podemos pulsar en **la parte derecha de la barra de git (icono tres puntos)** y elegir la opción **push** o **pull**.
 
 
-![imagen como hacer push o pull](foto6.png)
+![imagen como hacer push o pull](foto11.png)11
     
   
   ### GIT
