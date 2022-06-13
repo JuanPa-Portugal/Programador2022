@@ -60,7 +60,7 @@ repo proyecto primer cuatrimestre ISPC
 
 
 
-![imagen login GitHub](foto1.png)       foto1
+![imagen login GitHub](foto1.png)
 
 **Paso 2**
 
@@ -72,7 +72,7 @@ repo proyecto primer cuatrimestre ISPC
 - Una vez confirmada nuestra cuenta, podemos ir a nuestro espacio de GitHub y empezar a crear nuestros repositorios y visitar los que ya tenemos creados. Además de personalizarlo editando nuestro perfil (foto, nombre, datos personales, etc).
 
 
-![imagen formulario](foto2.png) foto2
+![imagen formulario](foto2.png)
 
 >**Como crear un repositorio ✍️**
 
@@ -80,7 +80,7 @@ Para crear un nuevo repositorio hay dos formas de hacerlo:
   1. Desde el **"menu (+)"**, desplegando selecciono **"New  repository"**.
   2. Debes seleccionar la pestaña de **"Repositories"** y damos clic en el **botón (verde) "New"**.
 
-  ![imagen seccion crear un repositorio en github](foto3.png) foto3
+  ![imagen seccion crear un repositorio en github](foto3.png)
 
 EsTas opciones nos llevan a una página donde vamos a colocar:
   1. El nombre del repositorio donde nos indica **"Repository name"**, el campo **Description** es opcional.
@@ -89,7 +89,7 @@ EsTas opciones nos llevan a una página donde vamos a colocar:
 
 / Aclaracion: Hay otras opciones a tomar pero las mas comunes son las mencionadas /
 
-![imagen seccion de formulario de crear repo github](foto4.png) foto4
+![imagen seccion de formulario de crear repo github](foto4.png)
 
 Al seleccionar el botón nos quedará una página con la siguiente información:
   * Enlace para subir a Github un proyecto existente ese repositorio o  ir creando nuestros archivos e ir subiendolos a este repositorio.
