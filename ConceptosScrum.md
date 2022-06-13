@@ -95,7 +95,7 @@ Al seleccionar el botón nos quedará una página con la siguiente información:
   * Enlace para subir a Github un proyecto existente ese repositorio o  ir creando nuestros archivos e ir subiendolos a este repositorio.
   * Y los comando para subir nuetro proyecto desde nuestra consola.   
 
-![magen de repositorio github](foto5.png) foto5
+![magen de repositorio github](foto5.png)
 
 >**Tambien podemos "Clonar un repositorio" 📄➡️📄**.
 
