@@ -137,7 +137,35 @@ Tiene buen soporte para los procedimientos almacenados, las transacciones compat
   
         Marco: Introduccion a la BD
 
-La necesidad de gestionar datos
+**La necesidad de gestionar datos**
+
+En el mundo actual existe una cada vez mayor demanda de datos. siempre 
+patente en empresas y sociedades, pero la demanda todavía se ha disparado debido
+al acceso multitudinario a Internet.
+Informática hace referencia a una ciencia que trabaja con información.
+Desde la creación de ordenadores, la información se ha considera un
+pilar de las computadoras digitales. Por ello las bases de datos son una de las aplicaciones más antiguas de la informática.
+En informática se conoce como dato a cualquier elemento informativo que tenga relevancia para el sistema. Desde el inicio de la informática se ha reconocido al dato como al elemento fundamental de trabajo en un ordenador. Por ello se han realizado numerosos estudios y aplicaciones para mejorar la gestión desde las computadoras de los datos.
+Inicialmente los datos que se necesitaba almacenar y gestionar eran pocos. En la actualidad las numerosas aplicaciones de Internet han producido enormes sistemas de
+información que incluso para poder gestionarles requieren decenas de máquinas haciendo la información accesible desde cualquier parte del planeta y en un tiempo rápido. Eso ha requerido que la ciencia de las bases de datos esté en continua renovación.
+El cifrado de datos es una técnica tan antigua como la propia escritura para conseguir
+uno de los todavía requisitos fundamentales de la gestión de datos, la seguridad.
+El tiempo requerido para manipular estos datos era enorme. Sin embargo el proceso de aprendizaje era relativamente sencillo ya que se usaban elementos que el usuario reconocía perfectamente. Por esa razón, la informática adaptó sus herramientas para que los elementos que el usuario maneja en el ordenador se parezcan a los que utilizaba manualmente. Así en informática se sigue hablado de ficheros, formularios, carpetas, directorios,....
+
+
+**La empresa como sistema**
+
+*Sistema es “Conjunto de cosas que
+ordenadamente relacionadas entre sí contribuyen a un
+determinado objeto” .*
+El sistema completo que forma la empresa, por otra parte, se suele dividir en los siguientes subsistemas:
+- Subsistema productivo. También llamado subsistema real o físico. Representa la parte de la
+empresa encargada de gestionar la producción de la misma.
+- Subsistema financiero. Encargado de la gestión de los bienes económicos de la empresa
+- Subsistema directivo. Encargado de la gestión organizativa de la empresa
+
+
+
   
   ### Sistemas Gestores de Base de Datos(Gestion y Diseño)
   
