@@ -8,10 +8,13 @@ repo proyecto primer cuatrimestre ISPC
   ### Diseño de bases de datos relacionales
   
   ### Introduccion a la Base de Datos
+  ___
+  ___
+  ___
   
- ### SISTEMAS GESTORES DE BASE DE DATOS(Gestion y Diseño)
+  ### Sistemas Gestores de Base de Datos(Gestion y Diseño)
   
- ## Tipos fundamentales de sistemas de información (dos puntos determinantes):
+ ### Tipos fundamentales de sistemas de información (dos puntos determinantes):
  **Sistemas de Información orientados a procesos:**
  Antes la información se trataba y se gestionaba utilizando los típicos sistemas de gestión de archivos que iban soportados sobre un sistema operativo. Éstos        consistían en un conjunto de programas que definían y trabajaban sus propios datos. Los datos se almacenan en archivos y los programas manejan esos archivos para obtener la información. Si la estructura de los datos de los archivos cambia, todos los programas que los manejan se deben modificar. En estos sistemas de información se crean diversas aplicaciones (software) para gestionar diferentes aspectos del sistema; esto trae una única ventaja y es que los procesos son independientes por lo que la modificación de uno no afectaba al resto pero esto también supone un gran inconveniente a la hora de tratar grandes volúmenes de información .A estos sistemas se les llama sistemas de gestión de ficheros.
  *Inconvenientes de un sistema de gestión de archivos:*
