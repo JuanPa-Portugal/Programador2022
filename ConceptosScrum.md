@@ -4,13 +4,17 @@ repo proyecto primer cuatrimestre ISPC
 ## Resumen Base de Datos
 
   ### Historia de Base de Datos
+ 
+       Ramiro: historia BD
   
   ### Diseño de bases de datos relacionales
   
+        Dario: diseno de base de datos relacionales
+  
   ### Introduccion a la Base de Datos
-  ___
-  ___
-  ___
+  
+        Marco: Introduccion a la BD
+
   
   ### Sistemas Gestores de Base de Datos(Gestion y Diseño)
   
@@ -328,13 +332,13 @@ ___
 
   
   
----  
+  
 ## Resumen de ÉTICA Y DEONTOLOGÍA PROFESIONAL
 
   ### Ética y Deontología
   
   
-  ## ÉTICA EN LA INFORMATICA 
+  ### ÉTICA EN LA INFORMATICA 
   
 Para entender y adentrarnos a la EI es necesario abordar primero a el concepto puro de Ética.
 
