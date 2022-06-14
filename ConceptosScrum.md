@@ -131,6 +131,69 @@ Tiene buen soporte para los procedimientos almacenados, las transacciones compat
   
   ### Diseño de bases de datos relacionales
   
+  
+## Etapas de diseño
+  
+  Las metodologias de diseño consta de las siguientes etapas, aspecto fundamental de las bases de datos, donde se ha establecido un ciclo de desarrollo que consta de tres etapas de diseño: el diseño conceptual, el diseño lógico y el diseño físico.                                     
+
+1) Diseño conceptual: Su objetivo es denir las entidades y las relaciones entre ellos de forma abstracta, sin centrarse en ningún modelo lógico en concreto (como el relacional, el orientado a objetos, el jerárquico o el de red). 
+ 
+    # Herramienta: Modelo conceptual de datos. Se usa alguna variante del modelo entidad-relación para las bases de datos relacionales.  
+    
+    # Resultado: Esquema conceptual de la base de datos.
+    
+2) Diseño lógico: Su objetivo es denir el esquema de la base de datos según el modelo que implementa el SGBD objetivo.  
+  
+   # Herramienta: Modelo lógico de datos. Se usa el modelo lógico que implemente el sistema de gestión de bases de datos objetivo, pero es independiente de los aspectos físicos. Se usan técnicas formales para vericar la calidad del esquema lógico; la más usual es la normalización. En el modelo relacional se usan las tablas.  
+   
+   # Resultado: Esquema lógico de la base de datos. 
+   
+3) Diseño físico: Su objetivo es denir el esquema físico de la base de datos de forma que se den todas las instrucciones para que un DBA pueda implementar la base de datos sin ninguna ambigüedad. Se considera el rendimiento como un aspecto que no se ha tratado en las etapas anteriores. 
+   
+   # Herramienta: Modelo físico de datos. Se consideran todos los detalles de la implementación física: organización de archivos e índices para el SGBD considerado.
+   
+   # Resultado: Esquema físico de la base de datos. 
+   
+   
+## Diseño conceptual  
+
+  En este apartado se estudia el modelo entidad-relación que permite diseñar el esquema conceptual de una BD, y es muy adecuado para las BDs relacionales. Su resultado es un diagrama entidad-relación.
+
+# Conceptos:
+    a)Entidad: Es el menor objeto con significado en una instancia. En el caso del enfoque "clásico" correspondería a cada registro guardado en un fichero.
+    
+    b)Atributo: Es cada uno de los componentes que determinan una entidad.
+Cada atributo tiene asociado un dominio: el conjunto de valores que puede tomar.En el enfoque clásico serían los campos de los registros.
+    
+    c)Atributos monovalorados y multivalorados: Los atributos multivalorados son los que pueden contener más de un valor simultáneamente, y monovalorados a los que sólo pueden contener un valor.
+    
+    d)Atributos simples y compuestos: Un atributo es compuesto cuando puede descomponerse en otros componentes o atributos más pequeños, y simple en otro caso.
+    
+    e)Clave: Es un atributo o conjunto de atributos cuyos valores identifican unívocamente cada entidad.
+    
+            El concepto de clave distingue tres claves diferentes:
+
+            Superclave: Es cualquier conjunto de atributos que pueden identificar unívocamente a una tupla.
+
+            Clave candidata: Es el menor conjunto de atributos que puede formar clave. Puede haber varias en una tabla.  
+            
+            ClavePrimaria: Es la clave candidata que distingue el usuario para identificar unívocamente cada tupla. Es importante en cuanto al aspecto del rendimiento, como se verá en el apartado dedicado al diseño físico.
+            
+     e)Tipo de entidad: Es el conjunto de entidades que comparten los mismos atributos (aunque con diferentes valores para ellos).
+     
+     f)Relación: Es una correspondencia entre dos o más entidades. Se habla de relaciones binarias cuando la correspondencia es entre dos entidades, ternarias cuando es entre tres, y así sucesivamente.
+     
+     g)Tipos de relación: Representan a todas las posibles relaciones entre entidades del mismo tipo.
+     
+     Es posible que el mismo tipo de entidad aparezca dos o más veces en un tipo de relación. En este caso se asigna un nombre a cada papel que hace el tipo de entidad en el tipo de relación. Por ejemplo, algunos profesores tienen un supervisor, por lo que se define un tipo de relación Supervisa que relaciona profesores con profesores, el primero tendrá el papel de supervisor y el segundo de supervisado.
+     
+# Diagramas entidad-relación (E-R):
+
+****ingresar dibujo ****
+   
+   
+ 
+  
         Dario: diseno de base de datos relacionales
   
   ### Introduccion a la Base de Datos
