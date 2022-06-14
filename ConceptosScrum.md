@@ -5,7 +5,129 @@ repo proyecto primer cuatrimestre ISPC
 
   ### Historia de Base de Datos
  
-       Ramiro: historia BD
+       El término bases de datos fue escuchado por primera vez en un simposio celebrado en California en 1963.
+ se puede decir que una base de datos es un conjunto de información relacionada que se encuentra agrupada o estructurada.
+
+Desde el punto de vista informático, una base de datos es un sistema formado por un conjunto de datos almacenados en discos que permiten el acceso directo a ellos y un conjunto de programas que manipulen ese conjunto de datos.
+
+un sistema de Gestión de Bases de datos es un tipo de software muy específico dedicado a servir de interfaz entre la base de datos, el usuario y las aplicaciones que la utilizan
+
+
+una agrupación de programas que sirven para definir, construir y manipular una base de datos, permitiendo así almacenar y posteriormente acceder a los datos de forma rápida y estructurada
+
+ORIGENES
+•	el uso de las bases de datos se desarrolló a partir de las necesidades de almacenar grandes cantidades de información o datos.
+En 1884 Herman Hollerith creó la máquina automática de tarjetas perforadas, Y
+ comenzó a trabajar en el diseño de una maquina tabuladora o censadora(Ya que en esa época los censos se realizaban de manera manual)  basada en tarjetas perforadas.
+
+en la década de los cincuenta se da origen a las cintas magnéticas, para automatizar la información y hacer respaldos. Esto sirvió para suplir las necesidades de información de las nuevas industrias. Y a través de este mecanismo se empezaron
+a automatizar información, con la desventaja de que solo se podía hacer de forma secuencial.
+A medida que se integraban las aplicaciones (que estaban pensadas para una tarea especifica y se daban por lotes “Batch”), se tuvieron que interrelacionar sus ficheros y fue necesario eliminar la redundancia (esto se producía porque al añadir una aplicación que requería el uso de algunos de los datos que ya existían , ósea se copiaban datos innecesarios)
+El nuevo conjunto de ficheros se debía diseñar de modo que estuviesen interrelacionados; al mismo tiempo, las informaciones), que figuraban en los ficheros de más de una de las aplicaciones, debían estar ahora en un solo lugar.
+Estos ficheros al principio recibieron el nombre de Data Banks y luego a inicios de los setentas, el de Data Bases
+La utilización de estos conjuntos de ficheros era excesivamente compleja, de modo que, especialmente durante la segunda mitad de los años setenta, fue saliendo al mercado software más sofisticado: los Data Base Management Systems, que aquí denominamos Sistemas de Gestión de BD (SGBD).
+una base de datos es un conjunto estructurado de datos que representa entidades y sus interrelaciones y Una base de datos de un SI (Sistema de Información) es la representación integrada de los conjuntos de entidades instancia correspondientes a las diferentes entidades tipo del SI y de sus interrelaciones. 
+
+•	En la época de los sesenta, las computadoras bajaron los precios para que las compañías privadas las pudiesen adquirir; dando paso a que se popularizara el uso de los discos
+En esta misma época se dio inicio a las primeras generaciones de bases de datos de red y las bases de datos jerárquicas, ya que era posible guardar estructuras de datos en listas y arboles
+Tambien se llevo a cabo la alianza de IBM y American Airlines para desarrollar SABRE, (un sistema operativo que manejaba las reservas de vuelos, transacciones e informaciones sobre los pasajeros de la compañía American Airlines) y el desarrollo del IDS desarrollado por Charles Bachman supuso la creación de un nuevo tipo de sistema de bases de datos conocido como modelo en red que permitió la creación de un estándar en los sistemas de bases de datos gracias a la creación de nuevos lenguajes de sistemas de información.
+
+
+Década de los 70 – Sistemas Centralizados.
+LOS primeros SGBD Estaban orientados a facilitar la utilización de grandes conjuntos de datos en los que las interrelaciones eran complejas
+Los SGBD estaban íntimamente ligados al software de comunicaciones y de gestión de transacciones.
+Para escribir los programas de aplicación se utilizaban lenguajes de alto nivel como Cobol o PL/I, se disponía también de instrucciones y de subrutinas especializadas para tratar las BD que
+requerían que el programador conociese muchos detalles del diseño físico, y que hacían que la programación fuese muy compleja puesto que se debían modificar continuamente cuando se hacían cambios en el diseño y la organización de la BD.
+La preocupación básica era maximizar el rendimiento: el tiempo de respuesta y las transacciones por segundo.
+
+Edgar Frank Codd (científico ingles) definió el modelo relacional dando paso al nacimiento de la segunda generación de los Sistemas Gestores de Bases de Datos.
+Durante la década de 1970, Lawrence J. Ellison, más conocido como Larry Ellison, a partir del trabajo de Edgar F. Codd sobre los sistemas de bases de datos relacionales, desarrolló el Relational Software System, lo que actualmente se conoce como Oracle Corporation, desarrollando así un sistema de gestión de bases de datos relacional.
+Al principio no se pudo usar porque tuvo inconvenientes con el rendimiento, no podía competir con las bases de datos jerárquicas y de redes finalmente IBM desarrolló unas técnicas para construir un sistema de bases de datos relacionales eficientes, las cuales llamó System R utilizando el lenguaje de consulta Secuela, el cual ha contribuido al desarrollo de SQL / DS, DB2, y otros lenguajes.
+Los SGBD de los años setenta eran demasiado complejos e inflexibles, y sólo los podía utilizar un
+personal muy cualificado.
+
+Década de los 80s  SGBD Relacionales.
+En la época de los ochenta también se desarrollará el SQL (Structured Query Language) o lo que es lo mismo un lenguaje de consultas o lenguaje declarativo de acceso a bases de datos relacionales que permite efectuar consultas con el fin de recuperar información de interés de una base de datos y hacer cambios sobre la base de datos de forma sencilla; además de analiza grandes cantidades de información y permitir especificar diversos tipos de operaciones frente a la misma información.
+
+
+a principios de los años ochenta comenzó el auge de la comercialización de los sistemas relacionales, y SQL comenzó a ser el estándar de la industria, ya que las bases de datos relacionales con su sistema de tablas (compuesta por filas y columnas) pudieron competir con las bases jerárquicas y de red, como consecuencia de que su nivel de programación era sencillo y su nivel de programación era relativamente bajo.
+
+El ORACLE está considerado como uno de los sistemas de bases de datos más completos del mundo, su dominio en el mercado fue casi total hasta muchos años después, pero esto cambió con la aparición del SQL Server de Microsoft. 
+
+6. Década de los 90: Distribución, C/S y 4GL
+los SGBD relacionales ya se utilizaban prácticamente en todas las empresas. A pesar de todo, hasta la mitad de los noventa, se han seguido utilizando los SGBD pre-relacionales.
+
+En la actualidad, gracias principalmente a la estandarización del lenguaje SQL, los SGBD de marcas diferentes pueden darse servicio unos a otros y colaborar para dar servicio a un programa de aplicación. 
+
+Las razones básicas por las que interesa esta distribución son las siguientes:
+
+      Disponibilidad                                                                                                                   
+                           La disponibilidad de un sistema con una BD distribuida puede ser más alta, porque si queda fuera de servicio uno de los sistemas, los demás seguirán funcionando. Si los datos residentes en el sistema no disponible están replicados en otro sistema, continuarán estando disponibles. En caso contrario sólo estarán disponibles los datos de los demás sistemas.
+
+      Coste                                                                                                                                    
+                           Una BD distribuida puede reducir el coste. En el caso de un sistema centralizado, todos los equipos usuarios, que pueden estar distribuidos por distintas y lejanas áreas geográficas, están conectados al sistema central por medio de líneas de comunicación. El coste total de las comunicaciones se puede reducir haciendo que un usuario tenga más cerca los datos que utiliza con mayor frecuencia
+
+La facilidad para disponer de distribución de datos no es la única razón, ni siquiera la básica, del gran éxito de los entornos C/S en los años noventa.
+Tal vez el motivo fundamental ha sido la flexibilidad para construir y hacer crecer la configuración
+informática global de la empresa, así como de hacer modificaciones en ella, mediante hardware y
+software muy estándar y barato.
+El éxito de las BD, incluso en sistemas personales, ha llevado a la aparición de los Fourth Generation Languages (4GL), lenguajes muy fáciles y potentes, especializados en el desarrollo de aplicaciones fundamentadas en BD.
+Proporcionan muchas facilidades en el momento de definir, generalmente de forma visual, diálogos para introducir, modificar y consultar datos en entornos C/S.
+
+
+
+7. Tendencias actuales
+La incorporación de tecnologías multimedia –imagen y sonido – en los SI hace necesario que los SGBD relacionales acepten atributos de estos tipos.
+Sin embargo, algunas aplicaciones no tienen suficiente con la incorporación de tipos especializados en multimedia. Necesitan tipos complejos que el desarrollador pueda definir a medida de la aplicación.
+Los SGBD más recientes ya incorporaban esta posibilidad de tener tipos abstractos de datos: TAD, 
+Esto nos lleva a la orientación a objetos (OO). 
+En los SI se inicia también la adopción de la OO.
+La utilización de lenguajes como C++ o Java requiere que los SGBD relacionales se adapten a ellos con interfaces adecuadas.
+La rápida adopción de la web a los SI hace que los SGBD incorporen recursos para ser servidores de páginas web
+Durante estos últimos años se ha empezado a extender un tipo de aplicación de las BD denominado Data Warehouse, o almacén de datos, que también produce algunos cambios en los SGBD relacionales del mercado.
+Se trata de mantener una gran BD con información proveniente de toda clase de
+aplicaciones de la empresa (e, incluso, de fuera). Los datos de este gran almacén, el Data Warehouse, se obtienen por una replicación más o menos elaborada de las que hay en las BD que se utilizan en el trabajo cotidiano de la empresa. Estos almacenes de datos se utilizan exclusivamente para hacer consultas, de forma especial para que lleven a cabo estudios 
+
+Actualmente, los SGBD se adaptan a este tipo de aplicación, incorporando, por ejemplo, herramientas como las siguientes:
+
+    La creación y el mantenimiento de réplicas, con una cierta elaboración de los datos.
+    La consolidación de datos de orígenes diferentes.
+    La creación de estructuras físicas que soporten eficientemente el análisis multidimensional.
+
+
+Gestores de Bases de Datos
+
+Los gestores de bases de datos, Database Management System o DBMS (SGBD) son programas que permiten almacenar y luego acceder a los datos de forma estructurada y rápida. 
+Una base de datos es un sistema compuesto por un conjunto de datos, los cuales están almacenados en discos, a los que se accede directamente y un conjunto de programas que regulen o manejen ese conjunto de datos.
+Mientras que un sistema de Gestión de Bases de Datos es un software que sirve de interfaz entre la base de datos, el usuario y las aplicaciones que se utilizan.
+
+Los mejores gestores de base de datos
+
+El principal lenguaje de base de datos y el más utilizado desde que se conoce la programación de
+gestión, es el Structured Query Language (SQL). Este, de consulta estructurada, facilita el acceso a la gestión de las bases de datos relaciones, lo que permite realizar tareas en ellas y realizar consultas, que sirvan para obtener, agregar, eliminar o modificar información.
+Para el desarrollo de este lenguaje hay que utilizar un gestor de base de datos, de los que hay muchos, unos de acceso libre y otros de pago
+
+Oracle 
+             Es de los más confiables sistemas de gestión de base de datos relacional, además del más usado. Es propiedad de Oracle Corporation y fue desarrollado en 1977.
+Su versatilidad le facilita ejecutarse en casi todas las plataformas existentes, Windows, Unix, Linux, MAC OS, entre otros.
+
+SQL Server
+             En competencia directa a Oracle, está SQL Server de Microsoft. Los dos ocupan gran parte del mercado en el sector de base de datos. 
+SQL Server se ejecuta en Transact-SQL, esto es un grupo de programas que pueden añadir características al programa.
+. Su carácter administrativo es otro valor agregado, tanto en sus funciones y seguridad, como en su flexibilidad.
+
+
+     Gestores de base de datos de acceso libre
+            Dos de los principales y más utilizados gestores de pago, que son de acceso libre (Open Source) son los siguientes:
+
+MySQL
+actúa de lado del cliente o servidor, es de código abierto y tiene licencia comercial disponible. Pertenece a Oracle Corporation y gestiona las bases de datos relacionales, con funciones multiusuario y es el más usado dentro del software libre. Se usa principalmente para el desarrollo Web.
+
+Fire Bird
+este sistema de gestión de base de datos relacional SQL, es uno de los mejores gestores Open Source (Código abierto) o libres. 
+Tiene buen soporte para los procedimientos almacenados, las transacciones compatibles con ACID y con los métodos de acceso múltiple como Nativo, Python, .NET, etc...
+
+
   
   ### Diseño de bases de datos relacionales
   
