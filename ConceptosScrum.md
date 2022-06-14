@@ -137,6 +137,7 @@ Tiene buen soporte para los procedimientos almacenados, las transacciones compat
   
         Marco: Introduccion a la BD
 
+La necesidad de gestionar datos
   
   ### Sistemas Gestores de Base de Datos(Gestion y Diseño)
   
