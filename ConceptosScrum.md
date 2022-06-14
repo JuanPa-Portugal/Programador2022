@@ -129,10 +129,10 @@ Tiene buen soporte para los procedimientos almacenados, las transacciones compat
 
 
   
-  ### Diseño de bases de datos relacionales
+  # Diseño de bases de datos relacionales
   
   
-## Etapas de diseño
+# Etapas de diseño
   
   Las metodologias de diseño consta de las siguientes etapas, aspecto fundamental de las bases de datos, donde se ha establecido un ciclo de desarrollo que consta de tres etapas de diseño: el diseño conceptual, el diseño lógico y el diseño físico.                                     
 
@@ -155,7 +155,7 @@ Tiene buen soporte para los procedimientos almacenados, las transacciones compat
    # Resultado: Esquema físico de la base de datos. 
    
    
-## Diseño conceptual  
+# Diseño conceptual  
 
   En este apartado se estudia el modelo entidad-relación que permite diseñar el esquema conceptual de una BD, y es muy adecuado para las BDs relacionales. Su resultado es un diagrama entidad-relación.
 
@@ -163,7 +163,7 @@ Tiene buen soporte para los procedimientos almacenados, las transacciones compat
     a)Entidad: Es el menor objeto con significado en una instancia. En el caso del enfoque "clásico" correspondería a cada registro guardado en un fichero.
     
     b)Atributo: Es cada uno de los componentes que determinan una entidad.
-Cada atributo tiene asociado un dominio: el conjunto de valores que puede tomar.En el enfoque clásico serían los campos de los registros.
+ Cada atributo tiene asociado un dominio: el conjunto de valores que puede tomar.En el enfoque clásico serían los campos de los registros.
     
     c)Atributos monovalorados y multivalorados: Los atributos multivalorados son los que pueden contener más de un valor simultáneamente, y monovalorados a los que sólo pueden contener un valor.
     
@@ -177,24 +177,23 @@ Cada atributo tiene asociado un dominio: el conjunto de valores que puede tomar.
 
             Clave candidata: Es el menor conjunto de atributos que puede formar clave. Puede haber varias en una tabla.  
             
-            ClavePrimaria: Es la clave candidata que distingue el usuario para identificar unívocamente cada tupla. Es importante en cuanto al aspecto del rendimiento, como se verá en el apartado dedicado al diseño físico.
+            ClavePrimaria: Es la clave candidata que distingue el usuario para identificar unívocamente cada tupla. Es importante en cuanto al aspecto d             el rendimiento, como se verá en el apartado dedicado al diseño físico.
             
      e)Tipo de entidad: Es el conjunto de entidades que comparten los mismos atributos (aunque con diferentes valores para ellos).
      
-     f)Relación: Es una correspondencia entre dos o más entidades. Se habla de relaciones binarias cuando la correspondencia es entre dos entidades, ternarias cuando es entre tres, y así sucesivamente.
+     f)Relación: Es una correspondencia entre dos o más entidades. Se habla de relaciones binarias cuando la correspondencia es entre dos entidades,          ternarias cuando es entre tres, y así sucesivamente.
      
      g)Tipos de relación: Representan a todas las posibles relaciones entre entidades del mismo tipo.
      
-     Es posible que el mismo tipo de entidad aparezca dos o más veces en un tipo de relación. En este caso se asigna un nombre a cada papel que hace el tipo de entidad en el tipo de relación. Por ejemplo, algunos profesores tienen un supervisor, por lo que se define un tipo de relación Supervisa que relaciona profesores con profesores, el primero tendrá el papel de supervisor y el segundo de supervisado.
+     Es posible que el mismo tipo de entidad aparezca dos o más veces en un tipo de relación. En este caso se asigna un nombre a cada papel que hace el      tipo de entidad en el tipo de relación. Por ejemplo, algunos profesores tienen un supervisor, por lo que se define un tipo de relación Supervisa        que relaciona profesores con profesores, el primero tendrá el papel de supervisor y el segundo de supervisado.
      
 # Diagramas entidad-relación (E-R):
 
 ****ingresar dibujo ****
    
-   
- 
+  Dario: diseno de base de datos relacionales
   
-        Dario: diseno de base de datos relacionales
+  
   
   ### Introduccion a la Base de Datos
   
