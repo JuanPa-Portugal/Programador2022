@@ -132,7 +132,7 @@ Tiene buen soporte para los procedimientos almacenados, las transacciones compat
   # Diseño de bases de datos relacionales
   
   
-# Etapas de diseño
+## Etapas de diseño
   
   Las metodologias de diseño consta de las siguientes etapas, aspecto fundamental de las bases de datos, donde se ha establecido un ciclo de desarrollo que consta de tres etapas de diseño: el diseño conceptual, el diseño lógico y el diseño físico.                                     
 
@@ -155,45 +155,153 @@ Tiene buen soporte para los procedimientos almacenados, las transacciones compat
     Resultado: Esquema físico de la base de datos. 
    
    
- Diseño conceptual  
+ *Diseño conceptual  
 
   En este apartado se estudia el modelo entidad-relación que permite diseñar el esquema conceptual de una BD, y es muy adecuado para las BDs relacionales. Su resultado es un diagrama entidad-relación.
 
  Conceptos:
-    a)Entidad: Es el menor objeto con significado en una instancia. En el caso del enfoque "clásico" correspondería a cada registro guardado en un fichero.
+ a)Entidad: Es el menor objeto con significado en una instancia. En el caso del enfoque "clásico" correspondería a cada registro guardado en un fichero.    
+ b)Atributo: Es cada uno de los componentes que determinan una entidad.
+    Cada atributo tiene asociado un dominio: el conjunto de valores que puede tomar.En el enfoque clásico serían los campos de los registros.    
+ c)Atributos monovalorados y multivalorados: Los atributos multivalorados son los que pueden contener más de un valor simultáneamente, y monovalorados a los que          sólo pueden contener un valor.    
+ d)Atributos simples y compuestos: Un atributo es compuesto cuando puede descomponerse en otros componentes o atributos más pequeños, y simple en otro caso.    
+ e)Clave: Es un atributo o conjunto de atributos cuyos valores identifican unívocamente cada entidad.
     
-    b)Atributo: Es cada uno de los componentes que determinan una entidad.
- Cada atributo tiene asociado un dominio: el conjunto de valores que puede tomar.En el enfoque clásico serían los campos de los registros.
-    
-    c)Atributos monovalorados y multivalorados: Los atributos multivalorados son los que pueden contener más de un valor simultáneamente, y monovalorados a los que sólo pueden contener un valor.
-    
-    d)Atributos simples y compuestos: Un atributo es compuesto cuando puede descomponerse en otros componentes o atributos más pequeños, y simple en otro caso.
-    
-    e)Clave: Es un atributo o conjunto de atributos cuyos valores identifican unívocamente cada entidad.
-    
-            El concepto de clave distingue tres claves diferentes:
+            -El concepto de clave distingue tres claves diferentes:
 
-            Superclave: Es cualquier conjunto de atributos que pueden identificar unívocamente a una tupla.
+            -Superclave: Es cualquier conjunto de atributos que pueden identificar unívocamente a una tupla.
 
-            Clave candidata: Es el menor conjunto de atributos que puede formar clave. Puede haber varias en una tabla.  
+            -Clave candidata: Es el menor conjunto de atributos que puede formar clave. Puede haber varias en una tabla.  
             
-            ClavePrimaria: Es la clave candidata que distingue el usuario para identificar unívocamente cada tupla. Es importante en cuanto al aspecto d             el rendimiento, como se verá en el apartado dedicado al diseño físico.
+            -ClavePrimaria: Es la clave candidata que distingue el usuario para identificar unívocamente cada tupla. Es importante en cuanto al aspecto d             el rendimiento, como se verá en el apartado dedicado al diseño físico.
             
-     e)Tipo de entidad: Es el conjunto de entidades que comparten los mismos atributos (aunque con diferentes valores para ellos).
+ f)Tipo de entidad: Es el conjunto de entidades que comparten los mismos atributos (aunque con diferentes valores para ellos).
+ g)Relación: Es una correspondencia entre dos o más entidades. Se habla de relaciones binarias cuando la correspondencia es entre dos entidades, ternarias cuando es entre tres, y así sucesivamente.
+ h)Tipos de relación: Representan a todas las posibles relaciones entre entidades del mismo tipo.
      
-     f)Relación: Es una correspondencia entre dos o más entidades. Se habla de relaciones binarias cuando la correspondencia es entre dos entidades,          ternarias cuando es entre tres, y así sucesivamente.
-     
-     g)Tipos de relación: Representan a todas las posibles relaciones entre entidades del mismo tipo.
-     
-     Es posible que el mismo tipo de entidad aparezca dos o más veces en un tipo de relación. En este caso se asigna un nombre a cada papel que hace el      tipo de entidad en el tipo de relación. Por ejemplo, algunos profesores tienen un supervisor, por lo que se define un tipo de relación Supervisa        que relaciona profesores con profesores, el primero tendrá el papel de supervisor y el segundo de supervisado.
+  Es posible que el mismo tipo de entidad aparezca dos o más veces en un tipo de relación. En este caso se asigna un nombre a cada papel que hace el tipo de entidad en el tipo de relación. Por ejemplo, algunos profesores tienen un supervisor, por lo que se define un tipo de relación Supervisa que relaciona profesores con profesores, el primero tendrá el papel de supervisor y el segundo de supervisado.
      
  Diagramas entidad-relación (E-R):
+ El diseño del modelo E-R a partir del análisis inicial no es directo. Los componentes básicos de los diagramas E-R son los atributos, los tipos de entidades y los tipos de relaciones.
+ 
+ ![image](https://user-images.githubusercontent.com/97257347/173708299-fb134e0c-3729-47eb-a001-5ea4c35409c8.png)
 
-#****ingresar dibujo ****
-##****ingresar dibujo ****
-###****ingresar dibujo ****
+Diseño lógico
+
+   El diseño lógico es la segunda etapa del diseño de bases de datos en general y de las bases de datos relacionales en particular. En nuestro caso, las BD relacionales, el resultado de esta etapa es un esquema relacional basado en un modelo relacional. En este apartado se describirá en primer lugar el modelo relacional y en segundo lugar cómo pasar de un esquema entidad-relación a un esquema relacional.
    
-  Dario: diseno de base de datos relacionales
+   El modelo relacional
+  los conceptos de este modelo son:
+                • Entidad. Igual que en el modelo E-R. También se les llama tuplas o filas de la relación.
+                • Atributo. Igual que en el modelo E-R. También se le llaman campos o columnas de la relación. El dominio de los atributos tiene que ser simple: no se admiten atributos multivalorados ni compuestos.
+                • Esquema de una relación. Viene dado por el nombre de la relación y una lista de atributos. Es el tipo de entidad.
+                • Conjunto de entidades. Relación o tabla.
+                • Clave. Igual que en el modelo E-R. Hay que darse cuenta que en el modelo relacional todas las tablas deben tener claves, y que algunas tablas van a representar relaciones del esquema E-R.
+            • Instancia de una relación. Son conjuntos de entidades. Cada entidad se representa como una tupla. Cada componente de la tupla corresponde con el valor del atributo correspondiente, según el orden enunciado en el esquema de la relación.
+            
+Restricciones de integridad
+Hay dos: restricciones de integridad referencial y restricciones de participación total.
+
+Restricciones de integridad referencial
+   Al traducir un tipo de relación R, en cualquier instancia de R se debe cumplir que los valores de los atributos que hereda de una entidad (de su clave primaria) deben aparecer previamente en el conjunto de entidades.
+   
+Restricciones de participación total
+Cuando cada valor de un tipo de entidad debe aparecer en un tipo de relación.
+
+Diseño físico
+
+   El objetivo del diseño físico es la generación del esquema físico de la base de datos en el modelo de datos que implementa el SGBD. Esto incluye la definición sobre el SGBD de las tablas con sus campos, la imposición de todas las restricciones de integridad y la definición de índices. 
+   Los índices son estructuras de datos implementadas con ficheros que permiten un acceso más eficaz a los datos. Se organizan con respecto a uno o más campos (los denominados campos clave del índice, que no hay que confundir con el concepto de clave del modelo entidad-relación y relacional) y guardan sólo la información del valor de la clave y la dirección física a partir de la cual se pueden encontrar registros con ese valor.
+   
+Restricciones de integridad
+   En este tema se trata uno de los aspectos más importantes para añadir consistencia a los diseños de bases de datos: son las restricciones de integridad que ayudan a mantener la consistencia semántica de los datos. Además de las restricciones de integridad definidas por las claves, las restricciones de cardinalidad y las de participación total estudiadas anteriormente, se tratan las restricciones de los dominios, la integridad referencial, las dependencias funcionales y las dependencias multivaloradas.
+   
+Restricciones de los dominios
+   Las restricciones de los dominios son la forma más simple de restricción de integridad. Se especifica para cada atributo un dominio de
+valores posibles. Una definición adecuada de las restricciones de los dominios no sólo permite verificar los valores introducidos en la base de datos sino también examinar las consultas para asegurarse de que tengan sentido las comparaciones que hagan.
+
+Restricciones de integridad referencial
+   La integridad referencial permite asegurar que un valor que aparece en una relación para un conjunto de atributos determinado aparezca también en otra relación para ese mismo conjunto de atributos.
+   
+Dependencias funcionales
+
+   Una dependencia funcional (DF) es una propiedad semántica de un esquema de relación que impone el diseñador. Determina el valor de un conjunto de atributos a partir del valor de otro conjunto de atributos.
+   
+Disparadores
+   Un disparador es un mecanismo que se puede usar para implementar restricciones de integridad no soportadas directamente por el SGBD. Un disparador es una orden que el sistema ejecuta de manera automática como efecto secundario de la modificación de la base de datos. Los disparadores son mecanismos útiles para implementar restricciones de integridad, alertar a los usuarios o para realizar de manera automática ciertas tareas cuando se cumplen determinadas condiciones.
+   
+Normalización
+    La traducción del esquema conceptual al lógico no es única. Es necesario contar con una medida de la calidad de la agrupación de los
+atributos en relaciones. Como herramienta principal se usan las dependencias funcionales para agrupar los atributos en esquemas de
+relación, que se dice que se encuentran en una determinada forma normal.
+
+Redundancia de datos
+    Un objetivo del diseño de bases de datos relacionales es agrupar atributos en relaciones de forma que se reduzca la redundancia de datos y así el espacio de almacenamiento necesario.
+    
+Anomalías de actualización
+            • Anomalías de inserción.
+            • Anomalías de modificación.
+            • Anomalías de eliminación.
+            
+Formas normales y normalización
+    La forma normal de una relación se refiere a la mejor forma normal que satisface un esquema de relación indicando así el grado hasta el que se ha normalizado. La indicación del grado de calidad de un esquema de relación se refiere en general en el contexto global del esquema de la base de datos relacional, es decir, en el conjunto de todos los esquemas de relación de la base de datos. Dos propiedades que se deben cumplir para poder asegurarlo son:
+            • La propiedad de preservación de dependencias, que asegura que las dependencias funcionales originales se mantienen en algún esquema de relación después de la descomposición.
+            • La propiedad de la posibilidad de reproducir la información de la tabla antes de su descomposición a partir de las tablas resultado de ella.
+            
+Primera forma normal
+   Actualmente se considera como parte de la definición formal de relación, porque establece que los dominios de los atributos sólo pueden ser atómicos, para evitar atributos multivalorados, compuestos y sus combinaciones. En definitiva evita las relaciones dentro de las relaciones.
+   
+Segunda forma normal
+   En el ejemplo a continuación se puede observar que existen anomalías de actualización causadas por las dependencias funcionales DF2 y DF3, ya que como sus antecedentes no son clave, puede haber varias filas con el mismo consecuente. Se usa una notación gráfica para la expresión de las dependencias funcionales. Así:
+   
+   ![image](https://user-images.githubusercontent.com/97257347/173710155-17772f05-2438-4ff2-9971-e564d4ddc97d.png)
+
+Tercera forma normal
+
+En el ejemplo a continuación se puede observar que existen anomalías de actualización causadas por la dependencia funcional DF2.
+![image](https://user-images.githubusercontent.com/97257347/173710636-eefe0cde-13f0-4590-8cb8-18e98a1edd55.png)
+
+Forma normal de Boyce-Codd
+   La forma normal de Boyce-Codd (FNBC) se propuso como una forma más simple que la tercera, pero en realidad es más estricta porque cada relación en FNBC está en 3FN pero lo contrario no se cumple.
+   
+Desnormalización para el rendimiento
+
+   A veces los diseñadores de bases de datos escogen un esquema que tiene información redundante; es decir, que no está normalizada. Utilizan la redundancia para mejorar el rendimiento para aplicaciones concretas. La penalización sufrida por no emplear un esquema normalizado es el trabajo extra (en términos de tiempo de codificación y de tiempo de ejecución) de mantener consistentes los datos redundantes. 
+   
+Normativa de denominación
+    La normativa de denominación es una colección de reglas que permite asignar nombres a identificadores y objetos. El objetivo es que los nombres que se elijan indiquen de forma lo más clara posible el significado del elemento al que se refiere el nombre.
+    
+Identificadores
+Los identificadores (o nombres que se usan para designar los elementos de una base de datos) se construyen generalmente con letras y números. En muchos SGBD no se distinguen mayúsculas de minúsculas, pero su uso nos puede ayudar a hacer más legibles los identificadores.
+
+Tablas
+   Las tablas representan entidades y sus nombres deberían describir las entidades que representan. Por ejemplo, Pacientes sería un identificador que describe a una tabla que contiene información sobre las entidades Pacientes. Además se escribe en plural porque el tipo de entidad contiene un conjunto de entidades (la tabla contiene varios pacientes en general).Algunas tablas, sin embargo, no presentan entidades. Pueden representar relaciones entre entidades.
+   
+ Restricciones
+   Las restricciones se pueden denominar de formas autointerpretativas.
+   Hay que utilizar una abreviatura de dos letras para identificar la naturaleza de la restricción:
+                                       • CP (o PK en inglés, primary key) para clave principal
+                                       • IR (o RI en inglés, referential integrity) para integridad referencial
+                                       • CO (o CK en inglés, check) para la de comprobación
+                                       • UN para la de unicidad.
+                                       
+Controles
+   Cada tipo de control se debería denominar con una indicación del tipo de control, anteponiendo a un nombre descriptor un prefijo que indique el tipo, como se propone en la siguiente tabla.
+   
+   ![image](https://user-images.githubusercontent.com/97257347/173710963-e87fd561-1ef1-4cb0-afae-bec3c70d8efe.png)
+
+
+Variables
+   Cada variable se debería denominar con una indicación del tipo de la variable, anteponiendo a un nombre descriptor un prefijo que indique el tipo, como se propone en la siguiente tabla.
+   
+![image](https://user-images.githubusercontent.com/97257347/173711011-f1d5410d-2053-4272-87e7-fee392ca5dac.png)
+
+Objetos de la base de datos
+   Cada objeto de la base de datos se debería denominar con una indicación del tipo de objeto, anteponiendo a un nombre descriptor un prefijo que indique el tipo, como se propone en la siguiente tabla.
+
+![image](https://user-images.githubusercontent.com/97257347/173711040-daa64519-f7ef-4ede-be08-4cafbc9586f1.png)
+
+Dario: diseno de base de datos relacionales
   
   
   
