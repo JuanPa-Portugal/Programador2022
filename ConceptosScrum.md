@@ -238,7 +238,7 @@ relación, que se dice que se encuentran en una determinada forma normal.
 Redundancia de datos
     Un objetivo del diseño de bases de datos relacionales es agrupar atributos en relaciones de forma que se reduzca la redundancia de datos y así el espacio de almacenamiento necesario.
     
-Anomalías de actualización
+Anomalías de actualización:
             • Anomalías de inserción.
             • Anomalías de modificación.
             • Anomalías de eliminación.
@@ -280,23 +280,24 @@ Tablas
  Restricciones
    Las restricciones se pueden denominar de formas autointerpretativas.
    Hay que utilizar una abreviatura de dos letras para identificar la naturaleza de la restricción:
+   
                                        • CP (o PK en inglés, primary key) para clave principal
                                        • IR (o RI en inglés, referential integrity) para integridad referencial
                                        • CO (o CK en inglés, check) para la de comprobación
                                        • UN para la de unicidad.
                                        
-Controles
+Controles:
    Cada tipo de control se debería denominar con una indicación del tipo de control, anteponiendo a un nombre descriptor un prefijo que indique el tipo, como se propone en la siguiente tabla.
    
    ![image](https://user-images.githubusercontent.com/97257347/173710963-e87fd561-1ef1-4cb0-afae-bec3c70d8efe.png)
 
 
-Variables
+Variables:
    Cada variable se debería denominar con una indicación del tipo de la variable, anteponiendo a un nombre descriptor un prefijo que indique el tipo, como se propone en la siguiente tabla.
    
 ![image](https://user-images.githubusercontent.com/97257347/173711011-f1d5410d-2053-4272-87e7-fee392ca5dac.png)
 
-Objetos de la base de datos
+Objetos de la base de datos:
    Cada objeto de la base de datos se debería denominar con una indicación del tipo de objeto, anteponiendo a un nombre descriptor un prefijo que indique el tipo, como se propone en la siguiente tabla.
 
 ![image](https://user-images.githubusercontent.com/97257347/173711040-daa64519-f7ef-4ede-be08-4cafbc9586f1.png)
