@@ -340,35 +340,51 @@ empresa encargada de gestionar la producción de la misma.
 
 
   
-  ### Sistemas Gestores de Base de Datos(Gestion y Diseño)
+### Sistemas Gestores de Base de Datos(Gestion y Diseño)
   
- ### Tipos fundamentales de sistemas de información (dos puntos determinantes):
- **Sistemas de Información orientados a procesos:**
- Antes la información se trataba y se gestionaba utilizando los típicos sistemas de gestión de archivos que iban soportados sobre un sistema operativo. Éstos        consistían en un conjunto de programas que definían y trabajaban sus propios datos. Los datos se almacenan en archivos y los programas manejan esos archivos para obtener la información. Si la estructura de los datos de los archivos cambia, todos los programas que los manejan se deben modificar. En estos sistemas de información se crean diversas aplicaciones (software) para gestionar diferentes aspectos del sistema; esto trae una única ventaja y es que los procesos son independientes por lo que la modificación de uno no afectaba al resto pero esto también supone un gran inconveniente a la hora de tratar grandes volúmenes de información .A estos sistemas se les llama sistemas de gestión de ficheros.
- *Inconvenientes de un sistema de gestión de archivos:*
-- Redundancia e inconsistencia de los datos.
-- Dependencia de los datos física-lógica. 
-- Dificultad para tener acceso a los datos.
-- Separación y aislamiento de los datos.
-- Dificultad para el acceso concurrente.
-- Dependencia de la estructura del archivo con el lenguaje de programación.
-- Problemas en la seguridad de los datos.
-- Problemas de integridad de datos (datos inconsistentes).
+**Qué es un sistema gestor de base de datos:**
 
- **Sistemas de Información orientados a los datos. Bases de Datos.**
- El objetivo primordial de un gestor es proporcionar eficiencia y seguridad a la hora de extraer o almacenar información en una base de datos centralizada y común a todas las aplicaciones (una aplicación modifica un dato, dicho dato la modificación será visible para el resto de aplicaciones). Los sistemas gestores de BBDD están diseñados para gestionar grandes bloques de información, que implica tanto la definición de estructuras para el almacenamiento como de mecanismos para la gestión de la información. 
- Una BD es un gran almacén de datos que se define una sola vez; los datos pueden ser accedidos de forma simultánea por varios usuarios; están relacionados y existe un número mínimo de duplicidad; la descripción de esos datos (metadatos) el BBDD los almacena.
+ Un sistema gestor de base de datos (SGBD) o Database Management System (DBMS) es un conjunto de programas invisibles para el usuario final con el que se administra y gestiona la información que incluye una base de datos.
+ Los gestores de datos o gestores de base de datos permiten administrar todo acceso a la base de datos, pues tienen el objetivo de servir de interfaz entre esta, el usuario y las aplicaciones.
+ Entre sus funciones se encuentran la de permitir a los usuarios de negocio almacenar la información, modificar datos y acceder a los activos de conocimiento de la organización. Asimismo, el gestor de base de datos también se ocupa de realizar consultas y hacer análisis para generar informes.
+Además, los sistemas de gestión de base de datos pueden entenderse como una colección de datos interrelacionados, estructurados y organizados en el ecosistema formado por dicho conjunto de programas que acceden a ellos y facilitan su gestión.
 
- *Ventajas*                                                              *Desventajas*
-- Independencia de los datos y los programas y procesos.                - Instalación costosa.
-- Menor redundancia.                                                    - Requiere personal cualificado.
-- Integridad de los datos.                                              - Implantacion larga y difícil.
-- Mayor seguridad en los datos.                                         - Excesiva dependencia hacia los sistemas comerciales del mercado.
-- Datos más documentados. 
-- Acceso a los datos más eficiente.
-- Menor espacio de almacenamiento. 
-- Acceso simultáneo a los datos. 
+**Qué permiten los SGBD:**
 
+ En pocas palabras, el gestor de base de datos controla cualquier operación ejecutada por el usuario contra la BBDD. Para desarrollar esta función, es normal que se requieran herramientas específicas, como por ejemplo sistemas de búsqueda y de generación de informes, así como distintas aplicaciones. Los gestores de base de datos también permiten lo siguiente:
+
+-  Que las interacciones con cualquier base de datos gestionada puedan desarrollarse siempre separadamente a los programas o aplicaciones que los gestionan.
+
+-  La manipulación de bases de datos, garantizando su seguridad, integridad y consistencia.
+
+-  La definición de bases de datos a diferentes niveles de abstracción.
+
+
+**Tareas, funciones y propiedades del sistema gestor de base de datos**
+
+ El sistema de gestión de base de datos es el componente más importante de un sistema de base de datos. Sin él, no sería posible administrar, controlar o supervisar la base de datos. Este software también es responsable de gestionar todos sus permisos de lectura y escritura. Un término que suele utilizarse mucho para resumir las funciones y propiedades de las transacciones de los sistemas gestores de base de datos es ACID, siglas de los términos en inglés atomicity, consistency, isolation y durability (es decir, atomicidad, consistencia, aislamiento y permanencia). Estos cuatro conceptos engloban los requisitos más importantes de un SGBD:
+
+ La **atomicidad o integridad** describe la propiedad de “todo o nada” de los SGBD, por la que todas las fases de una transacción deben finalizarse por completo y en el orden correcto para que esta sea válida.
+ La **consistencia** implica que las transacciones completadas no afecten la estabilidad de la base de datos, lo que requiere supervisarlas constantemente.
+ El **aislamiento** es la propiedad que asegura que las transacciones no obstaculicen a las demás, de lo que, por lo general, se encargan algunas funciones de bloqueo.
+ La **permanencia** implica que todos los datos queden almacenados permanentemente en el SGBD, no solo después de una transacción correcta, sino también o especialmente en caso de error o caída del sistema. Los registros de las transacciones, donde quedan anotados todos los procesos del SGBD, son fundamentales para garantizar la permanencia.
+
+**¿Cuáles son los componentes de un SGBD?**
+Un sistema de gestión de base de datos consta de varios componentes, todos los cuales contribuyen al buen funcionamiento del software. Los elementos básicos que lo conforman son tres: el diccionario de datos, el lenguaje de definición de datos y el lenguaje de manipulación de datos.
+
+- **Diccionario de datos:** consiste en una lista de metadatos que reflejan las características de los diversos tipos de datos incluidos en la base de datos. Además, estos - metadatos informan sobre los permisos de uso de cada registro y su representación física. De esta manera, el diccionario proporciona toda la información relevante sobre los datos almacenados.
+- **Lenguaje de definición de datos:** el lenguaje de definición de datos, también llamado lenguaje de base de datos o DDL (data definition language), sirve para estructurar el contenido de la base de datos. Gracias a este lenguaje, es posible crear, modificar y eliminar objetos individuales, como referencias, relaciones o derechos de usuario.
+- **Lenguaje de manipulación de datos:** mediante el lenguaje de manipulación de datos o DML (data manipulation language), se pueden introducir nuevos registros en la base de datos, así como eliminar, modificar y consultar los que ya contiene. Este lenguaje también permite comprimir y extraer los datos
+
+**¿Qué tipos de SGBD existen?**
+El objetivo de instalar un sistema gestor de base de datos es administrar los registros de la mejor manera posible. Como ya hemos mencionado, existen varios modelos para ello, que difieren básicamente en la manera en que se estructuran los datos. Por lo tanto, decidirse por un DBMS siempre implica decantarse por un modelo de base de datos concreto. Existen los siguientes modelos de bases de datos:
+
+- **Relacional** (El más común y popular es el modelo de base de datos relacional, en el que los datos se estructuran en filas de tabla cuyos datos se relacionan).
+- **Jerárquica** (El modelo de base de datos jerárquico, donde los diferentes datos se organizan en relaciones padre-hijo, en una estructura similar a la de un árbol).
+- **De red** (El modelo en red organiza la información en registros (también llamados nodos) y enlaces. En los registros se almacenan los datos, mientras que los enlaces permiten relacionar estos datos).
+- **Orientada a objetos** (El modelo de bases de datos orientada a objetos, en el que no solo importa la relación entre los registros de datos, sino también el concepto de la "herencia").
+- **Bases de datos objeto-relacionales**  (Tratan de ser un híbrido entre el modelo relacional y el orientado a objetos).
+- **Bases de datos NoSQL** (se agrupan las bases de datos (con arquitecturas muy diversas) pensadas para grabar los datos de manera veloz para así poder atender a miles y miles de peticiones. El nombre NoSQL, hace referencia a que este modelo de bases de datos rompe con el lenguaje SQL).
   
 ---
 ## Resumen Metodologías Agiles y Gestión de Proyectos
