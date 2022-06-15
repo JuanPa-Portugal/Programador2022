@@ -662,7 +662,7 @@ ___
   ### Ética y Deontología
   
   
-  ### ÉTICA EN LA INFORMATICA 
+  ## ÉTICA EN LA INFORMATICA 
   
 Para entender y adentrarnos a la EI es necesario abordar primero a el concepto puro de Ética.
 
