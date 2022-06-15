@@ -127,7 +127,7 @@ Fire Bird
 este sistema de gestión de base de datos relacional SQL, es uno de los mejores gestores Open Source (Código abierto) o libres. 
 Tiene buen soporte para los procedimientos almacenados, las transacciones compatibles con ACID y con los métodos de acceso múltiple como Nativo, Python, .NET, etc...
 
-
+Dario: diseno de base de datos relacionales
   
   # Diseño de bases de datos relacionales
   
