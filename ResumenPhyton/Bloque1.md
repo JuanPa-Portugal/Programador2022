@@ -30,16 +30,14 @@ ___
         mientras haya algo que hacer
         hazlo
 
-        Toma en cuenta que este registro también declara que, si no hay nada que hacer, nada ocurrirá.
+        Toma en cuenta que este registro también declara que, si no hay nada que hacer, nada         ocurrirá.
          En general, en Python, un bucle se puede representar de la siguiente manera:
 
         while conditional_expression:
         instruction
 
-        Si observas algunas similitudes con la instrucción if, está bien. De hecho, la               diferencia sintáctica es 
-        solo una: usa la palabra while en lugar de la palabra if.
-        La diferencia semántica es más importante: cuando se cumple la condición, if realiza         sus sentencias 
-        sólo una vez; while repite la ejecución siempre que la condición se evalúe como True.
+        Si observas algunas similitudes con la instrucción if, está bien. De hecho, la               diferencia sintáctica es solo una: usa la palabra while en lugar de la palabra if.
+        La diferencia semántica es más importante: cuando se cumple la condición, if realiza         sus sentencias sólo una vez; while repite la ejecución siempre que la condición se           evalúe como True.
 
         Observa el algoritmo a continuación:
 
@@ -52,15 +50,104 @@ ___
         instruction_n
 
         Ahora, es importante recordar que:
-        Si deseas ejecutar más de una sentencia dentro de un while, debes (como con if) poner         sangría a todas 
-        las instrucciones de la misma manera.
+        Si deseas ejecutar más de una sentencia dentro de un while, debes (como con if) poner         sangría a todas las instrucciones de la misma manera.
         Una instrucción o conjunto de instrucciones ejecutadas dentro del while se llama el           cuerpo del bucle.
-        Si la condición es False (igual a cero) tan pronto como se compruebe por primera vez,         el cuerpo no se 
-        ejecuta ni una sola vez (ten en cuenta la analogía de no tener que hacer nada si no           hay nada que hacer).
-        El cuerpo debe poder cambiar el valor de la condición, porque si la condición es True         al principio, el
-        cuerpo podría funcionar continuamente hasta el infinito.
+        Si la condición es False (igual a cero) tan pronto como se compruebe por primera vez,         el cuerpo no se ejecuta ni una sola vez (ten en cuenta la analogía de no tener que           hacer nada si no hay nada que hacer).
+        El cuerpo debe poder cambiar el valor de la condición, porque si la condición es True         al principio, el cuerpo podría funcionar continuamente hasta el infinito.
         
-        
+        Un Bucle Infinito
+
+        Un bucle infinito, también denominado bucle sin fin, es una secuencia de                     instrucciones en un programa que se repite indefinidamente (bucle sin fin).
+        Este es un ejemplo de un bucle que no puede finalizar su ejecución:
+
+        while True:
+        print("Estoy atrapado dentro de un bucle.")
+
+        Este bucle imprimirá infinitamente "Estoy atrapado dentro de un bucle". En la                 pantalla.
+        Volvamos al bosquejo del algoritmo que te mostramos recientemente. Te mostraremos             como usar este bucle recién aprendido para encontrar el número más grande de un gran         conjunto de datos ingresados.
+        Analiza el programa cuidadosamente. Localiza donde comienza el bucle (línea 8) y             descubre como se sale del cuerpo del bucle:
+
+        Almacena el actual número más grande aquí.
+        largest_number = -999999999
+
+        Ingresa el primer valor.
+        number = int(input("Introduce un número o escribe -1 para detener: "))
+
+        Si el número no es igual a -1, continuaremos
+        while number != -1:
+        ¿Es el número más grande que el valor de largest_number?
+        if number > largest_number:
+        Sí si, se actualiza largest_number.
+        largest_number = number
+        Ingresa el siguiente número.
+        number = int(input("Introduce un número o escribe -1 para detener: "))
+
+        Imprime el número más grande
+        print("El número más grande es:", largest_number)
+
+        Bucles en tu código con for
+
+        Otro tipo de bucle disponible en Python proviene de la observación de que a veces es         más importante contar los "giros o vueltas" del bucle que verificar las condiciones.
+        Imagina que el cuerpo de un bucle debe ejecutarse exactamente cien veces. Si deseas           utilizar el bucle while para hacerlo, puede tener este aspecto:
+
+       i = 0
+       while i < 100:
+       do_something()
+      i += 1
+
+      Sería bueno si alguien pudiera hacer esta cuenta aburrida por ti. ¿Es eso posible?
+      Por supuesto que lo es, hay un bucle especial para este tipo de tareas, y se llama for.
+      Echa un vistazo al fragmento:
+
+      for i in range(100):
+      do_something()
+      pass
+
+      La palabra reservada for abre el bucle for; nota - No hay condición después de eso; no       tienes que pensar en las condiciones, ya que se verifican internamente, sin ninguna           intervención.
+      Cualquier variable después de la palabra reservada for es la variable de control del         bucle; cuenta los giros del bucle y lo hace automáticamente.
+      La palabra reservada in introduce un elemento de sintaxis que describe el rango de           valores posibles que se asignan a la variable de control.
+      La función range() (esta es una función muy especial) es responsable de generar todos         los valores deseados de la variable de control; en nuestro ejemplo, la función creará         (incluso podemos decir que alimentará el bucle con) valores subsiguientes del siguiente       conjunto: 0, 1, 2 .. 97, 98, 99; En este caso, la función range() comienza su trabajo         desde 0 y lo finaliza un paso (un número entero) antes del valor de su argumento.
+      La palabra clave pass dentro del cuerpo del bucle - no hace nada en absoluto; es una         instrucción vacía : la colocamos aquí porque la sintaxis del bucle for exige al menos         una instrucción dentro del cuerpo (por cierto, if, elif, else y while expresan lo             mismo).
+      Echa un vistazo al fragmento de abajo. ¿Puedes predecir su salida?
+
+     for i in range(10):
+     print("El valor de i es actualmente", i)
+
+     El bucle se ha ejecutado diez veces (es el argumento de la función range()).
+     El valor de la última variable de control es 9 (no 10, ya que comienza desde 0 , no          desde 1).
+     La invocación de la función range() puede estar equipada con dos argumentos, no solo          uno:
+
+     for i in range(2, 8):
+     print("El valor de i es actualmente", i)
+
+     En este caso, el primer argumento determina el valor inicial (primero) de la variable de      control.
+     El último argumento muestra el primer valor que no se asignará a la variable de control.
+     La función range() solo acepta enteros como argumentos y genera secuencias de enteros.
+     El primer valor mostrado es 2 (tomado del primer argumento de range()).
+     El último es 7 (aunque el segundo argumento de range() es 8).
+
+     Más sobre el bucle for y la función range() con tres argumentos
+
+     La función range() también puede aceptar tres argumentos.
+     El tercer argumento es un incremento: es un valor agregado para controlar la variable en      cada giro del bucle (como puedes sospechar, el valor predeterminado del incremento es        1).
+
+     for i in range(2, 8, 3):
+     print("El valor de i es actualmente", i)
+
+     El primer argumento pasado a la función range() nos dice cual es el número de inicio de      la secuencia (por lo tanto, 2 en la salida). El segundo argumento le dice a la función        dónde detener la secuencia (la función genera números hasta el número indicado por el        segundo argumento, pero no lo incluye). 
+     Finalmente, el tercer argumento indica el paso, que en realidad significa la diferencia      entre cada número en la secuencia de números generados por la función.
+     Si el conjunto generado por la función range() está vacío, el bucle no ejecutará su          cuerpo en absoluto.
+     Al igual que aquí, no habrá salida:
+
+     for i in range(1, 1):
+     print("El valor de i es actualmente", i)
+
+     El conjunto generado por range() debe ordenarse en un orden ascendente. No hay forma de      forzar el range() para crear un conjunto en una forma diferente. Esto significa que el        segundo argumento de range() debe ser mayor que el primero.
+     Por lo tanto, tampoco habrá salida aquí:
+
+     for i in range(2, 1):
+     print("El valor de i es actualmente", i)
+   
         
 ### Listas y su procesamiento
         JuanPa
