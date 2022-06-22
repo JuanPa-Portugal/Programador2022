@@ -152,6 +152,75 @@ ___
 ### Listas y su procesamiento
         JuanPa
         
+   La lista es un tipo de dato en Python que se utiliza para almacenar múltiples objetos. Es una colección ordenada y mutable de elementos separados por comas            entre corchetes, por ejemplo:
+   
+   
+   ```python
+                my_list = [1, None, True, "Soy una cadena", 256, 0]
+   ```
+ 
+  Las listas se pueden indexar y actualizar , por ejemplo:
+  
+   ```python 
+               my_list = [1, None, True, 'Soy una cadena', 256, 0]
+               print(my_list[3])  # salida: Soy una cadena
+               print(my_list[-1])  # salida: 0
+
+               my_list[1] = '?'
+               print(my_list)  # salida: [1, '?', True, 'Soy una cadena', 256, 0]
+
+               my_list.insert(0, "primero")
+               my_list.append("último")
+               print(my_list)  # outputs: ['primero', 1, '?', True, 'Soy una cadena', 256, 0, 'último']
+
+   ```
+   
+  Las listas pueden estar anidadas, por ejemplo:
+
+```python
+               my_list = [1, 'a', ["lista", 64, [0, 1], False]]
+```
+
+Los elementos de la lista y las listas se pueden eliminar, por ejemplo:
+
+```python
+               my_list = [1, 2, 3, 4]
+               del my_list[2]
+               print(my_list)  # salida: [1, 2, 4]
+
+               del my_list  # borra la lista entera
+```
+
+Las listas pueden ser iteradas mediante el uso del bucle for, por ejemplo:
+
+```python
+               my_list = ["blanco", "purpura", "azul", "amarillo", "verde"]
+
+               for color in my_list:
+               print(color)
+```               
+
+
+La función len() se puede usar para verificar la longitud de la lista, por ejemplo:
+
+```python
+               my_list = ["blanco", "purpura", "azul", "amarillo", "verde"]
+               print(len(my_list))  # salida 5
+
+               del my_list[2]
+               print(len(my_list))  # salida 4
+```               
+
+
+Una invocación típica de función tiene el siguiente aspecto: `result = function(arg)`, mientras que una invocación típica de un método se ve así: `result = data.method(arg)`
+
+#### Ordenamiento Burbuja
+                              ........por completar
+
+
+
+
+        
 ### Operaciones Logicas de bit a bit
         Lorena
         Lógica de computadora
