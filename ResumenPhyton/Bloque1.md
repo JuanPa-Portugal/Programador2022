@@ -310,13 +310,27 @@ Una invocación típica de función tiene el siguiente aspecto: `result = functi
 
         Operador de conjunción: and
         Es un operador binario con una prioridad inferior a la expresada por los operadores de comparación. Nos permite codificar condiciones complejas sin el uso de parentésis: counter > 0 and value ==100
-        El resultado proporcionado se puede determinar sobre la base de la tabla de verdad. Si consideramos la conjunción de A and B, el conjunto de valores posibles de argumentos y los valores correspondientes de conjunción se ve de la siguiente manera: (tabla)
+        El resultado proporcionado se puede determinar sobre la base de la tabla de verdad. Si consideramos la conjunción de A and B, el conjunto de valores posibles de argumentos y los valores correspondientes de conjunción se ve de la siguiente manera: 
+	Argumento A  Argumento B  A and B  
+        False         False       False
+        False         True        False
+        True          False       False
+        True          True        True
+
         
         Operador de disyuncion: or
-        Es un operador binario con una prioridad más baja que and (al igual que + en comparación con *).Su tabla de verdad es la siguiente:(tabla)
+        Es un operador binario con una prioridad más baja que and (al igual que + en comparación con *).Su tabla de verdad es la siguiente:
+	Argumento A    Argumento B  A or B
+	False          False        False
+	False          True         True
+	True           False        True
+	True           True         True
 
         Operador not
-        Operador que puede aplicar para condiciones de construcción. Es un operador unario que realiza una negación lógica.Convierte la verdad en falso y lo falso en verdad. Este operador se escribe como la palabra not, y su prioridad es muy alta igual que el unario + y -.Su tabla de verdad es simple: (tabla)
+        Operador que puede aplicar para condiciones de construcción. Es un operador unario que realiza una negación lógica.Convierte la verdad en falso y lo falso en verdad. Este operador se escribe como la palabra not, y su prioridad es muy alta igual que el unario + y -.Su tabla de verdad es simple: 
+	Argumento   not Argumento
+	False       True
+	True         False
 
         Expresiones lógicas
         Las siguientes condiciones son equivalentes a pares:
@@ -343,8 +357,17 @@ Una invocación típica de función tiene el siguiente aspecto: `result = functi
         - ^ (signo de intercalación) o exclusivo a nivel de bits (xor).
 
         Operadores de bit a bit (&,|,y ^)
+	Argumento A  Argumento B  A & B  A | B  A ^ B
+      0                    0                 0       0       0
+      0                    1                 0       1       1
+      1                    0                 0       1       1
+      1                    1                 1       1       0
+
 
         Operaciones de bit a bit ()
+	Argumento   ~ Argumento
+      0                    1
+      1                    0
 
         -& requiere exactamente dos 1s para proporcionar 1 como resultado.
         -| requiere al menos 1 para proporcionar 1 como resultado.
@@ -406,7 +429,18 @@ Una invocación típica de función tiene el siguiente aspecto: `result = functi
         value >> bits
         El argumento izquierdo de estos operadores es una valor entero cuyos bits se desplazan. El argumeto correcto determina el tamaño del turno. La operación no es conmutativa.
         Tabla de prioridades:
-        (imagen)
+        Prioridad   Operador
+     1               ~,+,-                       unario
+     2               **
+     3               *,/,//,%
+     4               +,-                          binario
+     5               <<,>>
+     6               <,<=,>,>=
+     7               ==,!=
+     8               &
+     9               |
+     10            =,+=,-=,*=,/=,%=
+                     &=,^=,|=,>>=,<<
         
 
 ___
