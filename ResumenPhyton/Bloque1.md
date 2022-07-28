@@ -8,7 +8,30 @@ ___
 
 ### Tipos de datos
 ### variables
-          ramiro
+Una variable es una ubicación nombrada reservada para almacenar valores en la memoria. Una variable es creada o inicializada automáticamente cuando se le asigna un valor por primera vez.
+Son componentes que tienen un nombre (el cual se lo podemos dar nosotros) y un valor que es el contenido del contenedor (dentro de la variable se puede poner cualquier cosa).
+Son contenedores para almacenar resultados y utilizarlos de nuevo.
+Como desarrolladores, nosotros decidimos cuantas variables deseamos utilizar en nuestro programa. Python no impone restricciones en la longitud de los nombres de las variables, pero eso no significa que un nombre de variable largo sea mejor que uno corto.
+Si se desea nombrar una variable, se deben seguir las siguientes reglas:
+•	El nombre de la variable debe de estar compuesto por MAYÚSCULAS, minúsculas, dígitos, y el carácter _ (guion bajo).
+•	El nombre de la variable debe comenzar con una letra.
+•	El carácter guion bajo es considerado una letra.
+•	Las mayúsculas y minúsculas se tratan de forma distinta
+•	El nombre de las variables no puede ser igual a alguna de las palabras reservadas de Python 
+
+Las PALABRAS CLAVES son palabras reservadas que no pueden ser utilizadas como nombres ni para variables ni funciones:
+
+['False', 'None', 'True', 'and', 'as', 'assert', 'break', 'class', 'continue', 'def', 'del', 'elif', 'else', 'except', 'finally', 'for', 'from', 'global', 'if', 'import', 'in', 'is', 'lambda', 'nonlocal', 'not', 'or', 'pass', 'raise', 'return', 'try', 'while', 'with', 'yield']
+
+¿Qué se puede poner dentro de una variable?
+Cualquier cosa.
+PARA TENER EN CUENTA:
+•	Se puede utilizar una variable para almacenar cualquier tipo de los valores 
+•	Una variable se crea cuando se le asigna un valor. A diferencia de otros lenguajes de programación, no es necesario declararla.
+•	Si se le asigna cualquier valor a una variable no existente, la variable será automáticamente creada. No se necesita hacer algo más.
+•	La creación (o su sintaxis) es muy simple: solo utiliza el nombre de la variable deseada, después el signo de igual (=) y el valor que se desea colocar dentro de la variable.
+
+También es posible utilizar operadores de asignación compuesta (operadores abreviados) para modificar los valores asignados a las variables, por ejemplo, var += 1, or var /= 5 * 2
           
 
 ### Operaciones basicas de entrada y salida 
