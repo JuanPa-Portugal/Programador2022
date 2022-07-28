@@ -7,6 +7,34 @@ ___
 ## Modulo 2
 
 ### Tipos de datos
+
+•	LITERALES
+Un literal se refiere a datos cuyos valores están determinados por el literal mismo.
+Se utilizan literales para codificar datos y ponerlos dentro del código. 
+Hay 2 tipos de literales los de cadena y los de números enteros
+
+•	Enteros
+Son los que no tienen parte fraccionaria
+Enteros: números octales y hexadecimales
+Existen dos convenciones adicionales en Python que no son conocidas en el mundo de las matemáticas. El primero nos permite utilizar un número en su representación octal.
+Si un número entero esta precedido por un código 0O o 0o (cero-o), el número será tratado como un valor octal. Esto significa que el número debe contener dígitos en el rango del [0..7] únicamente.
+La segunda convención nos permite utilizar números en hexadecimal. Dichos números deben ser precedidos por el prefijo 0x o 0X (cero-x).
+0x123 es un número hexadecimal con un valor (decimal) igual a 291
+•	Flotantes
+Sirven para representar y almacenar los números que tienen una parte decimal no vacía.
+Son números que tienen una parte fraccionaria después del punto decimal. El punto decimal es lo que determina si es flotante.
+
+El punto decimal es esencialmente importante para reconocer números punto-flotantes en Python.
+EJEMPLO
+4
+4.0
+4 es un número entero, mientras que 4.0 es un número punto-flotante.
+
+•	CADENAS
+Las cadenas se emplean cuando se requiere procesar texto (como nombres de cualquier tipo, direcciones, novelas, etc.), no números.
+Las cadenas requieren comillas .
+Este es un ejemplo de una cadena: "Yo soy una cadena."
+
 ### variables
 Una variable es una ubicación nombrada reservada para almacenar valores en la memoria. Una variable es creada o inicializada automáticamente cuando se le asigna un valor por primera vez.
 Son componentes que tienen un nombre (el cual se lo podemos dar nosotros) y un valor que es el contenido del contenedor (dentro de la variable se puede poner cualquier cosa).
