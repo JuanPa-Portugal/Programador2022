@@ -5,7 +5,7 @@
 
 Recorrer la lista “Perro” con un bucle y mostrar sus elementos por pantalla , comenzando desde el último hasta el primero.
 """
-EJERCICIO RESULETO
+EJERCICIO RESUELTO
 """Creando mi lista Perro2 del tipo heterogénea"""
 
 Perro2 = [14, "Fido",  "12/12/2012", "Macho", 23546987]
